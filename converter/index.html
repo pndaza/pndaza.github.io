@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Myanmar Font Converter</title>
+</head>
+
+<style>
+    body {
+        text-align: center;
+        background-color: rgb(250, 250, 250);
+    }
+
+    .button {
+        /*box model*/
+        display: inline-block;
+        padding: 5px 15px;
+        cursor: pointer;
+
+        /*typography*/
+        color: white;
+        font-size: 1.2em;
+        text-decoration: none;
+        text-shadow: 1px 2px #1f3f91;
+
+        /*visual*/
+        border: 0 none;
+        border-radius: 5px;
+    }
+
+    .blue {
+        background-color: #00c6ff;
+        background-image: -webkit-linear-gradient(top, #00c6ff, #0082ff); 
+        background-image: linear-gradient(top, #00c6ff, #0072ff);
+        box-shadow: inset 0 0 0 1px #0082cc;
+    }
+
+    .button:hover {
+        background-image: -webkit-linear-gradient(top, #0082ff, #00c6ff); 
+        background-image: linear-gradient(top, #0082ff, #00c6ff);
+        box-shadow: inset 0 0 0 1px #0082ee, 0 1px 0 1px #0050ff;
+    }
+
+    .button:active {
+        box-shadow: inset 0 0 0 1px #0082cc;
+    }
+
+
+    select {
+        width: 100px;
+        height: 25px;
+        border-radius: 3px;
+    }
+
+    .footnote {
+        display: inline-block;
+        padding: 5px 20px;
+        color: black;
+        font-size: 0.8em;
+        border: 1px solid rgb(252, 236, 213);
+        border-radius: 5px;
+        background-color: rgb(253, 248, 239);
+        
+    }
+
+    .round {
+        border: 1px solid;
+        border-color: #c0c0c0;
+        border-radius: 5px;
+    }
+
+    #showcodepoint { display: none;}
+
+    #output { font-family: "Padauk", "Pyidaungsu", "Myanmar3"; font-size: 16pt;}
+    #input { font-family: "Smart Zawgyi Pro", "Zawgyi-One", "NotoSansZawgyi"; font-size: 16pt;}
+    
+
+    .my {
+        display: inline-block;
+        margin-left: 5px;
+        font-family:  "Padauk", "Pyidaungsu", "Myanmar3";
+    }
+    
+	@media all and (orientation: portrait) {
+        section {
+            padding: 10pt;
+            display: inline-block;
+            width: 90%;
+        }
+        textarea {
+            display: inline-block;
+            width: 90%;
+            height: 200pt;
+        }
+    }
+
+    @media all and (orientation: landscape) {
+        section {
+            padding: 10pt;
+            display: inline-block;
+            width: 45%;
+        }
+        textarea {
+            display: inline-block;
+            width: 90%;
+            height: 350pt;
+        }
+    }
+    
+    #textContainer {
+        text-align: center;
+    }
+        
+</style>
+
+<body>
+    <h1>Myanmar Font Converter</h1>
+
+    <button class="button blue" id="convert" onclick="convert()">Convert</button>
+    <button class="button yellow" id="showcodepoint" onclick="showCodePoint()">
+    <span class="btntext">Code Point</span>
+    </button>
+
+    <div class="textcontainer">
+        <section>
+            <select id="from" class="round" onchange="setInputFont()">
+                <option value="1">Wininnwa</option>
+                <option value="2" selected="selected">Zawgyi</option>
+                <option value="3">Unicode</option>
+                <option value="4">Myanmar1(pali)</option>
+            </select>
+            <span class="my"> မှ </span>
+            <textarea id="input" class="round" oninput="convert()"></textarea>
+        </section>
+
+        <section>
+            <select id="to" class="round" onchange="setOutputFont()">
+                <option value="1">Wininnwa</option>
+                <option value="2">Zawgyi</option>
+                <option value="3"  selected="selected">Unicode</option>
+            </select>
+            <span class="my">သို့</span>
+            <textarea id="output" class="round"></textarea>
+        </section>
+    </div>
+    <div class="footnote">
+        <footer>
+            ZawGyi <=> Uni (Rabbit Converter)
+        </footer>
+        <footer>
+            Wininnwa <=> Zawgyi (LilMaster, MgHla and other)
+        </footer>
+        <footer>
+            Myanmar1 -> Uni (pndaza)
+        </footer>
+    </div>
+
+    
+</body>
+
+<script language="javascript" type="text/javascript">
+
+    var from = document.getElementById("from");
+    var to = document.getElementById("to");
+    var input = document.getElementById("input");
+    var output = document.getElementById("output");
+
+    function setInputFont() {
+        var select = from.options[from.selectedIndex].value;
+        var font = "";
+        var size = "16pt";
+        switch (select) {
+            case '1':
+                font = "Wininnwa, Win Innwa";
+                size = "20pt";
+                break;
+            case '2':
+                font = "Smart Zawgyi Pro, Zawgyi-One";
+                break;
+            case '3':
+                font = "Pyidaungsu, Padauk";
+                break;
+            case '4':
+                font = "Myanmar1";
+        }
+        input.style.fontFamily = font;
+        input.style.fontSize = size;
+    }
+
+    function setOutputFont() {
+        var select = to.options[to.selectedIndex].value;
+        var font = "";
+        var size = "16pt";
+        switch (select) {
+            case '1':
+                font = "Wininnwa, Win Innwa";
+                size = "20pt"
+                break;
+            case '2':
+                font = "Smart Zawgyi Pro, Zawgyi-One";
+                break;
+            case '3':
+                font = "Pyidaungsu, Padauk";
+                break;
+        }
+        output.style.fontFamily = font;
+        output.style.fontSize = size;
+        convert();
+    }
+
+    function winToZawgyi(txt) {
+
+        var source = txt;
+        source = source.replace(/\u003c(.)/g, "\u004d$1\u0047"); // ြွ
+        source = source.replace(/\u003e(.)/g, "\u004d$1\u0047"); // ြွ
+        source = source.replace(/\u00ea(.)/g, "\u004d$1\u004b"); //ြု
+        source = source.replace(/\u00fb(.)/g, "\u004d$1\u004b"); //ြု
+
+        source = source.replace(/\u0051/g, "\u103a\u103d"); //  -ျှ
+        source = source.replace(/\u0052/g, "\u103a\u103c"); //  -ျွ
+        source = source.replace(/\u0057/g, "\u103a\u108a"); //   ျွှ
+        
+        source = source.replace(/\u00d3/g,"\u1009\u102c"); // ဉာ
+        source = source.replace(/\u004f\u0044/g, "\u1026"); //  ဦ 
+        source = source.replace(/\u004d\u006f/g, "\u1029"); // ဩ
+        source = source.replace(/\u0061\u004d\u006f\u006d\u0066/g, "\u102a"); // ဪ 
+
+        var out = "";
+
+        for ( var i = 0, leg = source.length; i < leg; i++ ) {
+            keycode = source.charCodeAt(i);
+            switch(keycode)
+            {
+                // ka to a
+                case 117 : keycode = 4096; break;
+                case 99 : keycode = 4097; break;
+                case 42 : keycode = 4098; break;
+                case 67 : keycode = 4099; break;
+                case 105 : keycode = 4100; break;
+                case 112 : keycode = 4101; break;
+                case 113 : keycode = 4102; break;
+                case 90 : keycode = 4103; break;
+                case 245 : keycode = 4104; break;
+                case 218 : keycode = 4105; break;
+                case 110 : keycode = 4106; break;
+                case 35 : keycode = 4107; break;
+                case 88 : keycode = 4108; break;
+                case 33 : keycode = 4109; break;
+                case 161 : keycode = 4110; break;
+                case 80 : keycode = 4111; break;
+                case 119 : keycode = 4112; break;
+                case 120 : keycode = 4113; break;
+                case 39 : keycode = 4114; break;
+                case 34 : keycode = 4115; break;
+                case 101 : keycode = 4116; break;
+                case 121 : keycode = 4117; break;
+                case 122 : keycode = 4118; break;
+                case 65 : keycode = 4119; break;
+                case 98 : keycode = 4120; break;
+                case 114 : keycode = 4121; break;
+                case 44 : keycode = 4122; break;
+                case 38 : keycode = 4123; break;
+                case 118 : keycode = 4124; break;
+                case 234 : keycode = 4125; break;
+                case 111 : keycode = 4126; break;
+                case 91 : keycode = 4127; break;
+                case 86 : keycode = 4128; break;
+                case 116 : keycode = 4129; break;
+                case 163 : keycode = 4131; break;
+                case 254 : keycode = 4132; break;
+                case 79 : keycode = 4133; break;
+                case 232 : keycode = 4134; break;
+                case 123 : keycode = 4135; break; 
+                case 235 : keycode = 4137; break;
+                case 236 : keycode = 4138; break;
+                case 103 : keycode = 4139; break;
+                case 109 : keycode = 4140; break;
+                case 100 : keycode = 4141; break;
+                case 68 : keycode = 4142; break;
+                case 107 : keycode = 4143; break;
+                case 108 : keycode = 4144; break;
+                case 97 : keycode = 4145; break;
+                case 74 : keycode = 4146; break;
+                case 75 : keycode = 4147; break;
+                case 76 : keycode = 4148; break;
+                case 72 : keycode = 4150; break;
+                case 104 : keycode = 4151; break;
+                case 59 : keycode = 4152; break;
+                case 102 : keycode = 4153; break;
+                case 115 : keycode = 4154; break;
+                case 106 : keycode = 4155; break;
+                case 71 : keycode = 4156; break;
+                case 83 : keycode = 4157; break;
+                // Zero to Nine
+                case 48 : keycode = 4160; break;
+                case 49 : keycode = 4161; break;
+                case 50 : keycode = 4162; break;
+                case 51 : keycode = 4163; break;
+                case 52 : keycode = 4164; break;
+                case 53 : keycode = 4165; break;
+                case 54 : keycode = 4166; break;
+                case 55 : keycode = 4167; break;
+                case 56 : keycode = 4168; break;
+                case 57 : keycode = 4169; break;				
+                
+                case 63 : keycode = 4170; break;
+                case 47 : keycode = 4171; break;
+                case 252 : keycode = 4172; break;
+                case 237 : keycode = 4173; break;
+                case 164 : keycode = 4174; break;
+                case 92 : keycode = 4175; break;
+                case 58 : keycode = 4186; break;
+                
+                
+                // patsint
+                case 250 : keycode = 4192; break;
+                case 169 : keycode = 4193; break;
+                case 190 : keycode = 4194; break;
+                case 162 : keycode = 4195; break;
+                case 70 : keycode = 4196; break;
+                case 246 : keycode = 4197; break;
+                case 228 : keycode = 4199; break; // instase of 4198 
+                case 198 : keycode = 4200; break;
+                case 209 : keycode = 4201; break;
+                case 205 : keycode = 4202; break;
+                case 241 : keycode = 4203; break;
+                case 179 : keycode = 4204; break;
+                case 178 : keycode = 4205; break;
+                case 215 : keycode = 4206; break;
+                case 185 : keycode = 4207; break;
+                case 214 : keycode = 4208; break;
+                case 229 : keycode = 4209; break;
+                case 197 : keycode = 4210; break;
+                case 172 : keycode = 4211; break;
+                case 166 : keycode = 4212; break;
+                case 180 : keycode = 4213; break;
+                case 168 : keycode = 4214; break;
+                case 233 : keycode = 4215; break;
+                case 220 : keycode = 4216; break;
+                case 230 : keycode = 4217; break;
+                case 193 : keycode = 4218; break;
+                case 199 : keycode = 4219; break;
+                case 174 : keycode = 4220; break;
+                case 223 : keycode = 4221; break;
+                case 77 : keycode = 4222; break;
+                case 78 : keycode = 4223; break;
+                case 66 : keycode = 4224; break;
+                case 96 : keycode = 4225; break;
+                case 126 : keycode = 4226; break;
+                // case 238 : keycode = 4227; break;
+                // case 239 : keycode = 4228; break;
+                
+                // codepoint of la sint is 8217, not 146
+                case 8217 : keycode = 4229; break;
+                case 243 : keycode = 4230; break;
+                case 167 : keycode = 4231; break;
+                case 73 : keycode = 4232; break;
+                case 170 : keycode = 4233; break;
+                case 84 : keycode = 4234; break;
+                case 216 : keycode = 4235; break;
+                case 208 : keycode = 4236; break;
+                case 248 : keycode = 4237; break;
+                case 240 : keycode = 4238; break;
+                case 69 : keycode = 4239; break;
+                case 189 : keycode = 4240; break;
+                case 64 : keycode = 4241; break;
+                case 124 : keycode = 4242; break;
+                case 89 : keycode = 4244; break;
+                case 85 : keycode = 4245; break;
+                case 201 : keycode = 4246; break;
+                case 165 : keycode = 4247; break;
+                
+                case 93 : keycode = 39; break;
+                case 125 : keycode = 39; break;
+                // case 217 : keycode = 4229; break;
+                
+                // case 81 : keycode = 4157; out += String.fromCharCode(4154); break;
+                // case 82 : keycode = 4156; out += String.fromCharCode(4154); break;
+                // case 87 : keycode = 4157; out += String.fromCharCode(4221); break;	
+
+                // case 60 : keycode = 4156; out += String.fromCharCode(4226); out += String.fromCharCode(4096); i++; break;
+                // case 62 : keycode = 4156; out += String.fromCharCode(4225); out += String.fromCharCode(4117); i++; break;
+                case 211 : keycode = 4140; out += String.fromCharCode(4105);  break;
+				
+                
+                case 93 : keycode = 39; break;
+                case 125 : keycode = 39; break;
+                case 231 : keycode = 44; break;
+                case 227 : keycode = 9824; break;
+                case 195 : keycode = 9824; break;
+                case 191 : keycode = 63; break;
+
+                case 171 : keycode = 91; break; // [
+                case 187 : keycode = 93; break; // ]
+                
+            }
+
+            out += String.fromCharCode(keycode);
+
+        }
+
+        // zero to wa
+        out = out.replace(/([\u1000-\u103D\u104A-\u109F])(\u1040)/g,"$1\u101D");
+        //out = out.replace(/(\u1040)([\u1000-\u103D])/g,"\u101D$2");
+        //out = out.replace(/\u1040([^\u1040-\u1049])/g,"\u101D$1");
+        out = out.replace(/\u101D\u1040/g,"\u101D\u101D");
+        out = out.replace(/\u0020\u0027\u0027/g,"\u0020\u201c");
+        out = out.replace(/\u0027\u0027/g,"\u201D");
+        out = out.replace(/\u106F\u102F/g,"\u106F");
+
+        return out;
+
+    }
+
+    function winToUni(txt) {
+        return zawgyiToUni(winToZawgyi(txt));
+    }
+
+    function zawgyiToWin(txt) {
+        var source = txt;
+        var out = "";
+        source = source.replace(/ဩ/g, "Mo");
+        source = source.replace(/ဦ/g, "OD");
+        source = source.replace(/ဈ/g, "ps");
+        source = source.replace(/ဉာ/g, "\u00d3");
+         //source = source.replace(/,/g, "ç");
+        source = source.replace(/\u1081([\u1000-\u1020])\u103c/g, "\u003e$1"); //yayint_waswe
+        source = source.replace(/\u1082([\u1000-\u1020])\u103c/g, "\u003c$1"); //yayint_waswe
+        source = source.replace(/\u103d\u103a/g,"\u0051"); // yapint_hahtol
+        source = source.replace(/\u0022/g,"\u0027\u0027"); // Quotation mark
+        source = source.replace(/\u1089/g,"\u0053\u004c"); // hahtol+UU vowel
+
+
+        for (var i = 0, len = source.length; i < len; i++) {
+
+            keycode = source.charCodeAt(i);
+            switch (keycode) {
+                
+                case 63: keycode = 191; break;  // Question mark
+                case 39: keycode = 125; break;  // right Quotation mark
+                case 44: keycode = 231; break; // comma                
+                case 59: keycode = 231; break; // semicolon to comma
+                case 58: keycode = 59; break; // colon to waitsapauk
+
+                case 91: keycode = 171; break;
+                case 93: keycode = 187; break;
+
+                case 8216: keycode = 93; break; // left Quotation mark
+                case 8217: keycode = 125; break; // right Quotation mark
+
+                case 4096 : keycode = 117; break;
+                case 4097 : keycode = 99; break;
+                case 4098 : keycode = 42; break;
+                case 4099 : keycode = 67; break;
+                case 4100 : keycode = 105; break;
+                case 4101 : keycode = 112; break;
+                case 4102 : keycode = 113; break;
+                case 4103 : keycode = 90; break;
+                case 4104 : keycode = 245; break;
+                case 4105 : keycode = 218; break;
+                case 4106 : keycode = 110; break;
+                case 4107 : keycode = 35; break;
+                case 4108 : keycode = 88; break;
+                case 4109 : keycode = 33; break;
+                case 4110 : keycode = 161; break;
+                case 4111 : keycode = 80; break;
+                case 4112 : keycode = 119; break;
+                case 4113 : keycode = 120; break;
+                case 4114 : keycode = 39; break;
+                case 4115 : keycode = 34; break;
+                case 4116 : keycode = 101; break;
+                case 4117 : keycode = 121; break;
+                case 4118 : keycode = 122; break;
+                case 4119 : keycode = 65; break;
+                case 4120 : keycode = 98; break;
+                case 4121 : keycode = 114; break;
+                case 4122 : keycode = 44; break;
+                case 4123 : keycode = 38; break;
+                case 4124 : keycode = 118; break;
+                case 4125 : keycode = 48; break;
+                case 4126 : keycode = 111; break;
+                case 4127 : keycode = 91; break;
+                case 4128 : keycode = 86; break;
+                case 4129 : keycode = 116; break;
+                case 4131 : keycode = 163; break;
+                case 4132 : keycode = 254; break;
+                case 4133 : keycode = 79; break;
+                case 4134 : keycode = 232; break;
+                case 4135 : keycode = 123; break;
+                case 4137 : keycode = 235; break;
+                case 4138 : keycode = 26; break;
+                case 4139 : keycode = 103; break;
+                case 4140 : keycode = 109; break;
+                case 4141 : keycode = 100; break;
+                case 4142 : keycode = 68; break;
+                case 4143 : keycode = 107; break;
+                case 4144 : keycode = 108; break;
+                case 4145 : keycode = 97; break;
+                case 4146 : keycode = 74; break;
+                case 4147 : keycode = 75; break;
+                case 4148 : keycode = 76; break;
+                case 4150 : keycode = 72; break;
+                case 4151 : keycode = 104; break;
+                case 4152 : keycode = 59; break;
+                case 4153 : keycode = 102; break;
+                case 4155 : keycode = 106; break;
+                case 4156 : keycode = 71; break;
+                case 4157 : keycode = 83; break;
+                case 4154 : keycode = 115; break;
+                case 4160 : keycode = 48; break;
+                case 4161 : keycode = 49; break;
+                case 4162 : keycode = 50; break;
+                case 4163 : keycode = 51; break;
+                case 4164 : keycode = 52; break;
+                case 4165 : keycode = 53; break;
+                case 4166 : keycode = 54; break;
+                case 4167 : keycode = 55; break;
+                case 4168 : keycode = 56; break;
+                case 4169 : keycode = 57; break;
+                case 4170 : keycode = 63; break;
+                case 4171 : keycode = 47; break;
+                case 4172 : keycode = 252; break;
+                case 4173 : keycode = 237; break;
+                case 4175 : keycode = 92; break;
+                case 4186 : keycode = 58; break;
+                case 4192 : keycode = 250; break;
+                case 4193 : keycode = 169; break;
+                case 4194 : keycode = 190; break;
+                case 4195 : keycode = 162; break;
+                case 4196 : keycode = 70; break;
+                case 4197 : keycode = 246; break;
+                case 4198 : keycode = 228; break;
+                case 4199 : keycode = 228; break;		            
+                case 4200 : keycode = 198; break;
+                case 4201 : keycode = 209; break;
+                case 4202 : keycode = 205; break;
+                case 4203 : keycode = 241; break;
+                case 4204 : keycode = 179; break;
+                case 4205 : keycode = 178; break;
+                case 4206 : keycode = 215; break;
+                case 4207 : keycode = 185; break;
+                case 4208 : keycode = 214; break;
+                case 4209 : keycode = 229; break;
+                case 4210 : keycode = 197; break;
+                case 4211 : keycode = 172; break;
+                case 4212 : keycode = 166; break;
+                case 4213 : keycode = 180; break;
+                case 4214 : keycode = 168; break;
+                case 4215 : keycode = 233; break;
+                case 4216 : keycode = 220; break;
+                case 4217 : keycode = 230; break;
+                case 4218 : keycode = 193; break;
+                case 4219 : keycode = 199; break;
+                case 4220 : keycode = 174; break;
+                case 4221:  keycode = 115; break;                
+                case 4222 : keycode = 77; break;
+                case 4223 : keycode = 78; break;
+                case 4224 : keycode = 66; break;
+                case 4225 : keycode = 96; break;
+                case 4226 : keycode = 126; break;
+                
+                case 4229 : keycode = 8217; break;
+                case 4230 : keycode = 243; break;
+                case 4231 : keycode = 167; break;
+                case 4232 : keycode = 73; break;
+                // case 4233 : keycode = 170; break;
+                case 4234 : keycode = 84; break;
+                case 4235 : keycode = 216; break;
+                case 4236 : keycode = 208; break;
+                case 4237 : keycode = 248; break;
+                case 4238 : keycode = 240; break;
+                case 4239 : keycode = 69; break;
+                case 4240 : keycode = 189; break;
+                case 4241 : keycode = 64; break;
+                case 4242 : keycode = 124; break;
+                case 4243:  keycode = 199; break; 
+                case 4244 : keycode = 89; break;
+                case 4245 : keycode = 85; break;
+                case 4246 : keycode = 201; break;
+                case 4247 : keycode = 165; break;
+                
+                case 39 : keycode = 93; break;
+                    //  case 125 : keycode = 39; break; to fix
+            }
+            /*if(keycode == 146) { 
+            unichar += "vv";}
+            else {
+            unichar += String.fromCharCode(keycode);}*/
+            out += String.fromCharCode(keycode);
+
+        }
+		 out = out.replace(/sG/g, "R");
+         out = out.replace(/sT/g, "W");
+         out = out.replace(/\u104e/g,"\u00a4\u0069\u0066\u003b");
+
+         out = out.replace(/\u0020\u007d\u007d/g,"\u0020]]"); // fix right Quotation to left
+         out = out.replace(/\u0020\u007d/g,"\u0020]"); // fix right Quotation to left
+         
+
+        return out;
+    }
+
+    function zawgyiToUni(txt) {
+
+        var source = txt;
+        var rule = [
+            { "from" : "([\u102D\u102E\u103D\u102F\u1037\u1095])\\1+", "to" : "$1" }, 
+            { "from": "\u200B", "to": "" }, 
+            { "from" : "\u103d\u103c", "to" : "\u108a" }, 
+            { "from": "(\u103d|\u1087)", "to": "\u103e" }, 
+            { "from": "\u103c", "to": "\u103d" }, 
+            { "from": "(\u103b|\u107e|\u107f|\u1080|\u1081|\u1082|\u1083|\u1084)", "to": "\u103c" }, 
+            { "from": "(\u103a|\u107d)", "to": "\u103b" }, 
+            { "from": "\u1039", "to": "\u103a" }, 
+            { "from": "(\u1066|\u1067)", "to": "\u1039\u1006" }, 
+            { "from": "\u106a", "to": "\u1009" }, 
+            { "from": "\u106b", "to": "\u100a" }, 
+            { "from": "\u106c", "to": "\u1039\u100b" }, 
+            { "from": "\u106d", "to": "\u1039\u100c" }, 
+            { "from": "\u106e", "to": "\u100d\u1039\u100d" }, 
+            { "from": "\u106f", "to": "\u100d\u1039\u100e" }, 
+            { "from": "\u1070", "to": "\u1039\u100f" }, 
+            { "from": "(\u1071|\u1072)", "to": "\u1039\u1010" }, 
+            { "from": "\u1060", "to": "\u1039\u1000" }, 
+            { "from": "\u1061", "to": "\u1039\u1001" }, 
+            { "from": "\u1062", "to": "\u1039\u1002" }, 
+            { "from": "\u1063", "to": "\u1039\u1003" }, 
+            { "from": "\u1065", "to": "\u1039\u1005" }, 
+            { "from": "\u1068", "to": "\u1039\u1007" }, 
+            { "from": "\u1069", "to": "\u1039\u1008" }, 
+            { "from": "(\u1073|\u1074)", "to": "\u1039\u1011" }, 
+            { "from": "\u1075", "to": "\u1039\u1012" }, 
+            { "from": "\u1076", "to": "\u1039\u1013" }, 
+            { "from": "\u1077", "to": "\u1039\u1014" }, 
+            { "from": "\u1078", "to": "\u1039\u1015" }, 
+            { "from": "\u1079", "to": "\u1039\u1016" }, 
+            { "from": "\u107a", "to": "\u1039\u1017" }, 
+            { "from": "\u107c", "to": "\u1039\u1019" }, 
+            { "from": "\u1085", "to": "\u1039\u101c" }, 
+            { "from": "\u1033", "to": "\u102f" }, 
+            { "from": "\u1034", "to": "\u1030" }, 
+            { "from": "\u103f", "to": "\u1030" }, 
+            { "from": "\u1086", "to": "\u103f" }, 
+            { "from": "\u1036\u1088", "to": "\u1088\u1036" }, 
+            { "from": "\u1088", "to": "\u103e\u102f" }, 
+            { "from": "\u1089", "to": "\u103e\u1030" }, 
+            { "from": "\u108a", "to": "\u103d\u103e" },
+            { "from": "\u103B\u1064", "to": "\u1064\u103B" },
+            { "from": "\u103c([\u1000-\u1021])([\u1064\u108b\u108d])", "to": "$1\u103c$2" },
+            { "from": "(\u1031)?([\u1000-\u1021\u1040-\u1049])(\u103c)?\u1064", "to": "\u1004\u103a\u1039$1$2$3" },
+            { "from": "(\u1031)?([\u1000-\u1021])(\u103b|\u103c)?\u108b", "to": "\u1004\u103a\u1039$1$2$3\u102d" },
+            { "from": "(\u1031)?([\u1000-\u1021])(\u103b)?\u108c", "to": "\u1004\u103a\u1039$1$2$3\u102e" },
+            { "from": "(\u1031)?([\u1000-\u1021])(\u103b)?\u108d", "to": "\u1004\u103a\u1039$1$2$3\u1036" }, 
+            { "from": "\u108e", "to": "\u102d\u1036" }, 
+            { "from": "\u108f", "to": "\u1014" }, 
+            { "from": "\u1090", "to": "\u101b" }, 
+            { "from": "\u1091", "to": "\u100f\u1039\u100d" }, 
+            { "from": "\u1092", "to": "\u100b\u1039\u100c" }, 
+            { "from": "\u1019\u102c(\u107b|\u1093)", "to": "\u1019\u1039\u1018\u102c" }, 
+            { "from": "(\u107b|\u1093)", "to": "\u1039\u1018" }, 
+            { "from": "(\u1094|\u1095)", "to": "\u1037" }, 
+            { "from": "([\u1000-\u1021])\u1037\u1032", "to": "$1\u1032\u1037" }, 
+            { "from": "\u1096", "to": "\u1039\u1010\u103d" }, 
+            { "from": "\u1097", "to": "\u100b\u1039\u100b" }, 
+            { "from": "\u103c([\u1000-\u1021])([\u1000-\u1021])?", "to": "$1\u103c$2" }, 
+            { "from": "([\u1000-\u1021])\u103c\u103a", "to": "\u103c$1\u103a" }, 
+            { "from": "\u1047(?=[\u102c-\u1030\u1032\u1036-\u1038\u103d\u1038])", "to": "\u101b" }, 
+            { "from": "\u1031\u1047", "to": "\u1031\u101b" }, 
+            { "from": "\u1040(\u102e|\u102f|\u102d\u102f|\u1030|\u1036|\u103d|\u103e)", "to": "\u101d$1" }, 
+            { "from": "([^\u1040\u1041\u1042\u1043\u1044\u1045\u1046\u1047\u1048\u1049])\u1040\u102b", "to": "$1\u101d\u102b" }, 
+            { "from": "([\u1040\u1041\u1042\u1043\u1044\u1045\u1046\u1047\u1048\u1049])\u1040\u102b(?!\u1038)", "to": "$1\u101d\u102b" }, 
+            { "from": "^\u1040(?=\u102b)", "to": "\u101d" }, 
+            { "from": "\u1040\u102d(?!\u0020?/)", "to": "\u101d\u102d" }, 
+            { "from": "([^\u1040-\u1049])\u1040([^\u1040-\u1049\u0020]|[\u104a\u104b])", "to": "$1\u101d$2" }, 
+            { "from": "([^\u1040-\u1049])\u1040(?=[\\f\\n\\r])", "to": "$1\u101d" }, 
+            { "from": "([^\u1040-\u1049])\u1040$", "to": "$1\u101d" }, 
+            { "from": "\u1031([\u1000-\u1021\u103f])(\u103e)?(\u103b)?", "to": "$1$2$3\u1031" }, 
+            { "from": "([\u1000-\u1021])\u1031([\u103b\u103c\u103d\u103e]+)", "to": "$1$2\u1031" }, 
+            { "from": "\u1032\u103d", "to": "\u103d\u1032" }, 
+            { "from": "([\u102d\u102e])\u103b", "to": "\u103b$1" }, 
+            { "from": "\u103d\u103b", "to": "\u103b\u103d" }, 
+            { "from": "\u103a\u1037", "to": "\u1037\u103a" }, 
+            { "from": "\u102f(\u102d|\u102e|\u1036|\u1037)\u102f", "to": "\u102f$1" }, 
+            { "from": "(\u102f|\u1030)(\u102d|\u102e)", "to": "$2$1" }, 
+            { "from": "(\u103e)(\u103b|\u103c)", "to": "$2$1" }, 
+            { "from": "\u1025(?=[\u1037]?[\u103a\u102c])", "to": "\u1009" }, 
+            { "from": "\u1025\u102e", "to": "\u1026" }, 
+            { "from": "\u1005\u103b", "to": "\u1008" }, 
+            { "from": "\u1036(\u102f|\u1030)", "to": "$1\u1036" }, 
+            { "from": "\u1031\u1037\u103e", "to": "\u103e\u1031\u1037" }, 
+            { "from": "\u1031\u103e\u102c", "to": "\u103e\u1031\u102c" }, 
+            { "from": "\u105a", "to": "\u102b\u103a" }, 
+            { "from": "\u1031\u103b\u103e", "to": "\u103b\u103e\u1031" }, 
+            { "from": "(\u102d|\u102e)(\u103d|\u103e)", "to": "$2$1" }, 
+            { "from": "\u102c\u1039([\u1000-\u1021])", "to": "\u1039$1\u102c" }, 
+            { "from": "\u1039\u103c\u103a\u1039([\u1000-\u1021])", "to": "\u103a\u1039$1\u103c" }, 
+            { "from": "\u103c\u1039([\u1000-\u1021])", "to": "\u1039$1\u103c" }, 
+            { "from": "\u1036\u1039([\u1000-\u1021])", "to": "\u1039$1\u1036" }, 
+            { "from": "\u104e", "to": "\u104e\u1004\u103a\u1038" }, 
+            { "from": "\u1040(\u102b|\u102c|\u1036)", "to": "\u101d$1" }, 
+            { "from": "\u1025\u1039", "to": "\u1009\u1039" }, 
+            { "from": "([\u1000-\u1021])\u103c\u1031\u103d", "to": "$1\u103c\u103d\u1031" }, 
+            { "from": "([\u1000-\u1021])\u103b\u1031\u103d(\u103e)?", "to": "$1\u103b\u103d$2\u1031" }, 
+            { "from": "([\u1000-\u1021])\u103d\u1031\u103b", "to": "$1\u103b\u103d\u1031" }, 
+            { "from": "([\u1000-\u1021])\u1031(\u1039[\u1000-\u1021]\u103d?)", "to": "$1$2\u1031" }, 
+            { "from": "\u1038\u103a", "to": "\u103a\u1038" }, 
+            { "from": "\u102d\u103a|\u103a\u102d", "to": "\u102d" }, 
+            { "from": "\u102d\u102f\u103a", "to": "\u102d\u102f" }, 
+            { "from": "\u0020\u1037", "to": "\u1037" }, 
+            { "from": "\u1037\u1036", "to": "\u1036\u1037" }, 
+            { "from": " \u1037", "to": "\u1037" }, 
+            { "from": "[\u102d]+", "to": "\u102d" }, 
+            { "from": "[\u103a]+", "to": "\u103a" }, 
+            { "from": "[\u103d]+", "to": "\u103d" }, 
+            { "from": "[\u1037]+", "to": "\u1037" }, 
+            { "from": "[\u102e]+", "to": "\u102e" }, 
+            { "from": "\u102d\u102e|\u102e\u102d", "to": "\u102e" }, 
+            { "from": "\u102f\u102d", "to": "\u102d\u102f" }, 
+            { "from": "\u1037\u1037", "to": "\u1037" }, 
+            { "from": "\u1032\u1032", "to": "\u1032" }, 
+            { "from": "\u1044\u1004\u103a\u1038", "to": "\u104E\u1004\u103a\u1038" }, 
+            { "from": "([\u102d\u102e])\u1039([\u1000-\u1021])", "to": "\u1039$2$1" }, 
+            { "from": "(\u103c\u1031)\u1039([\u1000-\u1021])", "to": "\u1039$2$1" }, 
+            { "from": "\u1036\u103d", "to": "\u103d\u1036" }
+            ];
+
+    var out = replace_with_rule(rule,source);
+
+    out = out.replace(/\u1040/g, "\u101D");
+    //output = output.replace(/\u101D+(?=[\u1041-\u1049])|(?<=[\u1041-\u1049])\u101D+/g,function(m){ return m.replace(/\u101d/g,"\u1040");});
+    //output = output.replace(/\u101D+[\u1041-\u1049]|[\u1041-\u1049]\u101D+/g, function(m){ return m.replace(/\u101d/g,"\u1040");});
+    out = out.replace(/\u101D+[\u1041-\u1049]|[\u1041-\u1049]\u101D+/g, m => m.replace(/\u101d/g,"\u1040"));
+
+    return out;
+    }
+
+    function uniToZawgyi(txt) {
+
+        var source = txt;
+        var rule = [
+                { "from": "\u1004\u103a\u1039", "to": "\u1064" }, 
+                { "from": "\u1039\u1010\u103d", "to": "\u1096" }, 
+                { "from": "\u102b\u103a", "to": "\u105a" }, 
+                { "from": "\u102d\u1036", "to": "\u108e" }, 
+                { "from": "\u104e\u1004\u103a\u1038", "to": "\u104e" }, 
+                { "from": "[\u1025\u1009](?=[\u1039])", "to": "\u106a" },
+                { "from": "\u1009(?=[\u102f\u1030])", "to": "\u1025" }, 
+                { "from": "[\u1025\u1009](?=[\u1037]?[\u103a\u103e])", "to": "\u1025" }, 
+                { "from": "\u100a(?=[\u1039\u103d])", "to": "\u106b" }, 
+                { "from": "(\u1039[\u1000-\u1021])(\u102D){0,1}\u102f", "to": "$1$2\u1033" }, 
+                { "from": "(\u1039[\u1000-\u1021])\u1030", "to": "$1\u1034" }, 
+                { "from": "\u1014(?=[\u102d\u102e]?[\u1030\u103d\u103e\u102f\u1039])", "to": "\u108f" }, 
+                { "from" : "\u1014\u103c", "to" : "\u108f\u103c" }, 
+                { "from": "\u1039\u1000", "to": "\u1060" }, 
+                { "from": "\u1039\u1001", "to": "\u1061" }, 
+                { "from": "\u1039\u1002", "to": "\u1062" }, 
+                { "from": "\u1039\u1003", "to": "\u1063" }, 
+                { "from": "\u1039\u1005", "to": "\u1065" }, 
+                { "from": "\u1039\u1006", "to": "\u1067" }, 
+                { "from": "\u1039\u1007", "to": "\u1068" }, 
+                { "from": "\u1039\u1008", "to": "\u1069" }, 
+                { "from": "\u1039\u100b", "to": "\u106c" }, 
+                { "from": "\u100d\u1039\u100d", "to": "\u106e" }, 
+                { "from": "\u100d\u1039\u100e", "to": "\u106f" }, 
+                { "from": "\u1039\u100f", "to": "\u1070" }, 
+                { "from": "\u1039\u1010", "to": "\u1071" }, 
+                { "from": "\u1039\u1011", "to": "\u1073" }, 
+                { "from": "\u1039\u1012", "to": "\u1075" }, 
+                { "from": "\u1039\u1013", "to": "\u1076" }, 
+                { "from": "\u1039[\u1014\u108f]", "to": "\u1077" }, 
+                { "from": "\u1039\u1015", "to": "\u1078" }, 
+                { "from": "\u1039\u1016", "to": "\u1079" }, 
+                { "from": "\u1039\u1017", "to": "\u107a" }, 
+                { "from": "\u1039\u1018", "to": "\u1093" }, 
+                { "from": "\u1039\u1019", "to": "\u107c" }, 
+                { "from": "\u1039\u101c", "to": "\u1085" }, 
+                { "from": "\u103f", "to": "\u1086" }, 
+                { "from": "\u103d\u103e", "to": "\u108a" }, 
+                { "from": "(\u1064)([\u1000-\u1021])([\u103b\u103c]?)\u102d", "to": "$2$3\u108b" }, 
+                { "from": "(\u1064)([\u1000-\u1021])([\u103b\u103c]?)\u102e", "to": "$2$3\u108c" }, 
+                { "from": "(\u1064)([\u1000-\u1021])([\u103a\u103b\u103c]?)\u1036", "to": "$2$3\u108d" }, 
+                { "from": "(\u1064)([\u1000-\u1021\u1040-\u1049])([\u103b\u103c]?)([\u1031]?)", "to": "$2$3$4$1" }, 
+                { "from": "\u101b(?=([\u102d\u102e]?)[\u102f\u1030\u103d\u108a])", "to": "\u1090" }, 
+                { "from": "\u100f\u1039\u100d", "to": "\u1091" },                 
+                { "from": "\u100b\u1039\u100c", "to": "\u1092" }, 
+                { "from": "\u100b\u1039\u100b", "to": "\u1097" },
+                { "from": "\u1039\u100c", "to": "\u106d" },
+                { "from": "([\u1000-\u1021\u108f\u1029\u106a\u106e\u106f\u1086\u1090\u1091\u1092\u1097\u106a])([\u1060-\u1069\u106c\u106d\u1070-\u107c\u1085\u108a\u1096])?([\u103b-\u103e]*)?\u1031", "to": "\u1031$1$2$3" }, 
+                { "from": "\u103c\u103e", "to": "\u103c\u1087" }, 
+                { "from": "([\u1000-\u1021\u108f\u1029])([\u1060-\u1069\u106c\u106d\u1070-\u107c\u1085])?(\u103c)", "to": "$3$1$2" }, 
+                { "from": "\u103a", "to": "\u1039" }, 
+                { "from": "\u103b", "to": "\u103a" }, 
+                { "from": "\u103c", "to": "\u103b" }, 
+                { "from": "\u103d", "to": "\u103c" }, 
+                { "from": "\u103e", "to": "\u103d" }, 
+                { "from": "([^\u103a\u100a])\u103d([\u102d\u102e]?)\u102f", "to": "$1\u1088$2" }, 
+                { "from": "([\u101b\u103a\u103c\u108a\u1088\u1090])([\u1030\u103d])?([\u1032\u1036\u1039\u102d\u102e\u108b\u108c\u108d\u108e]?)(\u102f)?\u1037", "to": "$1$2$3$4\u1095" }, 
+                { "from": "([\u102f\u1014\u1030\u103d])([\u1032\u1036\u1039\u102d\u102e\u108b\u108c\u108d\u108e]?)\u1037", "to": "$1$2\u1094" }, 
+                { "from": "([\u103b])([\u1000-\u1021])([\u1087]?)([\u1036\u102d\u102e\u108b\u108c\u108d\u108e]?)\u102f", "to": "$1$2$3$4\u1033" }, 
+                { "from": "([\u103b])([\u1000-\u1021])([\u1087]?)([\u1036\u102d\u102e\u108b\u108c\u108d\u108e]?)\u1030", "to": "$1$2$3$4\u1034" }, 
+                { "from": "([\u103a\u103c\u100a\u1008\u100b\u100c\u100d\u1020\u1025])([\u103d]?)([\u1036\u102d\u102e\u108b\u108c\u108d\u108e]?)\u102f", "to": "$1$2$3\u1033" }, 
+                { "from": "([\u103a\u103c\u100a\u1008\u100b\u100c\u100d\u1020\u1025])(\u103d?)([\u1036\u102d\u102e\u108b\u108c\u108d\u108e]?)\u1030", "to": "$1$2$3\u1034" }, 
+                { "from": "([\u100a\u1020\u1025])\u103d", "to": "$1\u1087" },
+                { "from": "\u103d\u1030", "to": "\u1089" }, 
+                { "from": "\u103b([\u1000\u1003\u1006\u100f\u1010\u1011\u1018\u101a\u101c\u101a\u101e\u101f])", "to": "\u107e$1" }, 
+                { "from": "\u107e([\u1000\u1003\u1006\u100f\u1010\u1011\u1018\u101a\u101c\u101a\u101e\u101f])([\u103c\u108a])([\u1032\u1036\u102d\u102e\u108b\u108c\u108d\u108e])", "to": "\u1084$1$2$3" }, 
+                { "from": "\u107e([\u1000\u1003\u1006\u100f\u1010\u1011\u1018\u101a\u101c\u101a\u101e\u101f])([\u103c\u108a])", "to": "\u1082$1$2" }, 
+                { "from": "\u107e([\u1000\u1003\u1006\u100f\u1010\u1011\u1018\u101a\u101c\u101a\u101e\u101f])([\u1033\u1034]?)([\u1032\u1036\u102d\u102e\u108b\u108c\u108d\u108e])", "to": "\u1080$1$2$3" }, 
+                { "from": "\u103b([\u1000-\u1021])([\u103c\u108a])([\u1032\u1036\u102d\u102e\u108b\u108c\u108d\u108e])", "to": "\u1083$1$2$3" }, 
+                { "from": "\u103b([\u1000-\u1021])([\u103c\u108a])", "to": "\u1081$1$2" }, 
+                { "from": "\u103b([\u1000-\u1021])([\u1033\u1034]?)([\u1032\u1036\u102d\u102e\u108b\u108c\u108d\u108e])", "to": "\u107f$1$2$3" }, 
+                { "from": "\u103a\u103d", "to": "\u103d\u103a" }, 
+                { "from": "\u103a([\u103c\u108a])", "to": "$1\u107d" }, 
+                { "from": "([\u1033\u1034])\u1094", "to": "$1\u1095" }, 
+                { "from": "\u108F\u1071",   "to" : "\u108F\u1072" }
+            ];
+
+       var out = replace_with_rule(rule,source);
+       
+       return out;
+
+    }
+
+    function uniToWin(txt) {
+        return zawgyiToWin(uniToZawgyi(txt));
+
+    }
+
+    function mmoneToUni(txt) {
+        var out = txt;
+
+        out = out.replace(/\u1039\u101A/g, "\u103B"); // virama ya
+        out = out.replace(/\u1039\u101B/g, "\u103C"); // virama ra
+        out = out.replace(/\u1039\u101D/g, "\u103D"); // virama wa
+        out = out.replace(/\u1039\u101F/g, "\u103E"); // viramal ha
+        out = out.replace(/\u101E\u1039\u101e/g, "\u103F")  // ssa
+        
+        out = out.replace(/\u1004\u1039/g, "\u1004\u103A\u1039"); // kinsi
+        out = out.replace(/\u101E\u1004\u103A\u1039\u1003/g, "\u101E\u1036\u1003"); // fix sangha
+
+        // AA to tall AA
+                
+        out = out.replace(/([ခဂငဒပဝ]ေ?)\u102c/g, "$1\u102b"); // aa to tall aa
+        out = out.replace(/(က္ခ|န္ဒ|ပ္ပ|မ္ပ)(ေ?)\u102b/g, "$1$2\u102c"); // restore back tall aa to aa for some pattern
+        out = out.replace(/(ဒ္ဓ|ဒွ)(ေ?)\u102c/g, "$1\u102b");
+
+        /*
+        out = out.replace(/([ဂဝ]ေ?)\u102C/g, "$1\u102b"); // \u102b = ါ
+        out = out.replace(/(^[ခငဒပ]\u1031?)ာ/g, "$1\u102b"); // start of line
+        out = out.replace(/([^္\n][ခငဒပ]\u1031?)ာ/g, "$1\u102b"); // not preceded by virama
+        out = out.replace(/(င်္ခ|ဒ္ဒ|ဒ္ဓ|ဒွ)(ေ?)ာ/g, "$1$2\u102b");
+
+        out = out.replace(/(\u1001)(\u1031)?(\u102C)/g, "$1$2\u102B"); // kha
+
+        out = out.replace(/(\u1001)(\u1031)?(\u102C)/g, "$1$2\u102B"); // kha
+        out = out.replace(/(\u1000\u1039\u1001)(\u1031)?(\u102B)/g, "$1$2\u102C"); // back to AA for kkha
+        out = out.replace(/(\u1012)(\u1031)?(\u102C)/g, "$1$2\u102B"); // da
+        out = out.replace(/(\u1014\u1039\u1012)(\u1031)?(\u102B)/g, "$1$2\u102C"); // back to AA for nda
+        out = out.replace(/(\u1012\u1039\u1013)(\u1031)?(\u102C)/g, "$1$2\u102B"); // dha
+        out = out.replace(/(\u1039\u1016)(\u1031)?(\u102C)/g, "$1$2\u102B"); // pha
+        out = out.replace(/(\u1039)?([\u1002\u1004\u1015\u101D])(\u1031)?(\u102C)/g, "$1$2$3\u102B"); // ga, nga, pa, va
+        out = out.replace(/\u1012\u103D\u102C/g,"\u1012\u103D\u102B"); // dva
+        */
+
+        return out;
+    }
+
+    function mmoneToZawgyi(txt) {
+
+        return uniToZawgyi(mmoneToUni(txt));
+    }
+
+    function mmoneToWin(txt) {
+
+        return zawgyiToWin(uniToZawgyi(mmoneToUni(txt)));
+    }
+
+    function replace_with_rule(rule,input) {
+        
+            var output = input;
+            var max_loop = rule.length;
+            for(i=0; i < max_loop; i++) {
+        
+              var data = rule[i];
+              var from = data["from"];
+              var to = data["to"];
+        
+              var from_regex = new RegExp(from,"g");
+              output = output.replace(from_regex,to);
+            }
+        
+            return output;
+        
+    }
+    
+    function convert() {
+
+        var f_from = from.options[from.selectedIndex].value;
+        var f_to = to.options[to.selectedIndex].value;
+        var txt = input.value;
+        var out = "";
+
+        if (txt) {
+            if (f_from == '1' && f_to == '2') {
+                out = winToZawgyi(txt);
+            } else if (f_from == '1' && f_to == '3') {
+                out = winToUni(txt);
+            } else if (f_from == '2' && f_to == '1') {
+                out = zawgyiToWin(txt);
+            } else if (f_from == '2' && f_to == '3') {
+                out = zawgyiToUni(txt);
+            } else if (f_from == '3' && f_to == '1') {
+                out = uniToWin(txt);
+            } else if (f_from == '3' && f_to == '2') {
+                out = uniToZawgyi(txt);
+            } else if (f_from == '4' && f_to =='3'){
+                out = mmoneToUni(txt);
+            } else if (f_from == '4' && f_to =='2'){
+                out = mmoneToZawgyi(txt);
+            } else if (f_from == '4' && f_to =='1'){
+                out = mmoneToWin(txt);
+            }
+            output.value = out;
+        }
+
+    }
+
+    function showCodePoint() {
+        var text = input.value;
+        var out = "";
+        for(var i = 0, length = text.length; i < length; i++) {
+            keycode = text.charCodeAt(i);
+            out += text[i] + " : " + keycode + ", ";
+
+        }
+        output.value = out;
+    }
+</script>
+
+</html>
