@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>မိုးကုတ်တရားတော်များ</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/css/green-audio-player.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js"></script>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        table td:nth-child(4) {
+            display: none;
+        }
+        h1 {text-align: center}
+        .player {text-align: center;}
+    </style>
+    <script>
+
+        $(document).ready(function () {
+
+            var path = "https://filedn.com/lrd4umGbQabz9VcYW12HhcQ/Mogok-420%20(Voice_Good)/";
+
+            var table = $('#myTable').DataTable({
+                "ajax": 'data.json'
+            });
+
+            $('#myTable').on('click', 'tr', function () {
+            var data = table.row(this).data();
+            $('#playing').html(data[2]);
+            var src = path + encodeURI(data[3]);
+            var player = $('#audio-player');
+            player.attr('src', src);
+            player.trigger("play");
+        });
+
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <div>
+        <h1>မိုးကုတ်တရားတော်များ</h1>
+    </div>
+    <div class="player">
+        <p id='playing'></p>
+        <audio id='audio-player'
+        controls>
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+    </div>
+    </div>
+    <table id="myTable" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Track</th>
+                <th>Date</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Track</th>
+                <th>Date</th>
+                <th>Title</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
