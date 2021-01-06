@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>မိုးကုတ်တရားတော်များ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Padauk">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" />
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
@@ -13,14 +15,51 @@
     <script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js"></script>
     <style>
         * {
-            font-family: sans-serif;
+            font-family: Padauk;
+        }
+
+        body {
+            background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+
+        .title {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-weight: bold;
+            line-height: 0.7;
         }
 
         table td:nth-child(4) {
             display: none;
         }
-        h1 {text-align: center}
-        .player {text-align: center;}
+
+        h1 {
+            text-align: center
+        }
+
+        .player {
+            text-align: center;
+            padding: 20px;
+        }
+
+        table td:nth-child(1) {
+            text-align: right;
+        }
+
+        table td:nth-child(2) {
+            text-align: right;
+        }
+
+        thead,
+        tfoot {
+            background-color: #ff2600;
+            color: wheat;
+        }
+
+
     </style>
     <script>
 
@@ -33,13 +72,13 @@
             });
 
             $('#myTable').on('click', 'tr', function () {
-            var data = table.row(this).data();
-            $('#playing').html(data[2]);
-            var src = path + encodeURI(data[3]);
-            var player = $('#audio-player');
-            player.attr('src', src);
-            player.trigger("play");
-        });
+                var data = table.row(this).data();
+                $('#playing').html(data[2]);
+                var src = path + encodeURI(data[3]);
+                var player = $('#audio-player');
+                player.attr('src', src);
+                player.trigger("play");
+            });
 
         });
 
@@ -48,31 +87,32 @@
 
 <body>
 
-    <div>
-        <h1>မိုးကုတ်တရားတော်များ</h1>
+    <div class="title">
+        <h1>မိုးကုတ်ဆရာတော်ဘုရားကြီး</h1>
+        <h2>ဟောကြားတော်မူခဲ့သော</h2>
+        <h1>တရားတော်များ</h1>
     </div>
     <div class="player">
         <p id='playing'></p>
-        <audio id='audio-player'
-        controls>
+        <audio id='audio-player' controls>
             Your browser does not support the
             <code>audio</code> element.
-    </audio>
+        </audio>
     </div>
     </div>
     <table id="myTable" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
-                <th>Track</th>
-                <th>Date</th>
-                <th>Title</th>
+                <th>နံပါတ်</th>
+                <th>ရက်စွဲ</th>
+                <th>တရားခေါင်းစဉ်</th>
             </tr>
         </thead>
         <tfoot>
             <tr>
-                <th>Track</th>
-                <th>Date</th>
-                <th>Title</th>
+                <th>နံပါတ်</th>
+                <th>ရက်စွဲ</th>
+                <th>တရားခေါင်းစဉ်</th>
             </tr>
         </tfoot>
     </table>
