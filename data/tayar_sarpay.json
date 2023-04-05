@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "title": "one",
+        "author": "nobody",
+        "category": "",
+        "cover": "",
+        "book": "",
+        "book_type": "",
+        "toc": "",
+        "content": ""
+    },
+    {
+        "id": 2,
+        "title": "two",
+        "author": "anonymos",
+        "category": "",
+        "cover": "",
+        "book": "",
+        "book_type": "",
+        "toc": "",
+        "content": ""
+    }
+]
