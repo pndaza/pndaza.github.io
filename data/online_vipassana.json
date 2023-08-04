@@ -1,502 +1,602 @@
 [
     {
-        "title": "01",
+        "title": "1",
         "id": "xF3L-_niN5g",
-        "duration": "5:39"
+        "duration": "05:39",
+        "description": "မိုးကုတ်ဥပနိဿယမိတ်ဆက်"
     },
     {
-        "title": "02",
+        "title": "2",
         "id": "qtppeoLrWPM",
-        "duration": "4:06"
+        "duration": "04:06",
+        "description": "ဒိဋ္ဌိအရင်ဖြုတ်ရခြင်းအကြောင်း"
     },
     {
-        "title": "03",
+        "title": "3",
         "id": "d7fjRw-BXfo",
-        "duration": "8:41"
+        "duration": "08:41",
+        "description": "ပဋိစ္စသမုပ္ပါဒ်နားလည်မှဒိဋ္ဌိပြုတ်"
     },
     {
-        "title": "04",
+        "title": "4",
         "id": "8YbtjyX7Trw",
-        "duration": "6:22"
+        "duration": "06:22",
+        "description": "သောတာပန်တည်ကြောင်းအင်္ဂါ"
     },
     {
-        "title": "05",
+        "title": "5",
         "id": "wg8o7qbDwzo",
-        "duration": "7:49"
+        "duration": "07:49",
+        "description": "သောတာပန်ပယ်သောကိလေသာ"
     },
     {
-        "title": "06",
+        "title": "6",
         "id": "WtMk-gPLI-U",
-        "duration": "8:10"
+        "duration": "08:10",
+        "description": "ပရိညာသုံးပါး"
     },
     {
-        "title": "07",
+        "title": "7",
         "id": "_AjVcKZ4law",
-        "duration": "8:45"
+        "duration": "08:45",
+        "description": "စင်္ကြန်ကမ္မဋ္ဌာန်းဖြင့် အကြောင်းအကျိုးပြပုံ"
     },
     {
-        "title": "08",
+        "title": "8",
         "id": "vbthPkcLzM8",
-        "duration": "6:28"
+        "duration": "06:28",
+        "description": "နာမရူပပရိစ္ဆေဒဉာဏ်၊ ပစ္စယပရိဂ္ဂဟဉာဏ်"
     },
     {
-        "title": "09",
+        "title": "9",
         "id": "M1sWwYjeHrM",
-        "duration": "6:36"
+        "duration": "06:36",
+        "description": "ပညာ၏ ဘူမိ"
     },
     {
         "title": "10",
         "id": "FZlJob2HyZU",
-        "duration": "7:23"
+        "duration": "07:23",
+        "description": "ခန္ဓာငါးပါး"
     },
     {
         "title": "11",
         "id": "33uImtOAtoY",
-        "duration": "5:02"
+        "duration": "05:02",
+        "description": "ခန္ဓာငါးပါးနှင့်သတိပဋ္ဌာန်လေးပါးတွဲစပ်ပုံ"
     },
     {
         "title": "12",
         "id": "poBjs7fSJwg",
-        "duration": "6:17"
+        "duration": "06:17",
+        "description": "သတိပဋ္ဌာန်လေးပါးနဲ့ အာသဝေါတရားလေးပါး တွဲစပ်ပုံ"
     },
     {
         "title": "13",
         "id": "Dmef2fHKTOg",
-        "duration": "6:05"
+        "duration": "06:05",
+        "description": "အကြောင်းအကျိုးသိက ဒိဋ္ဌိ ဝိစိကိစ္ဆာ အသိနဲ့ပြုတ်ပုံ"
     },
     {
         "title": "14",
         "id": "S4JK-fpWjjk",
-        "duration": "5:37"
+        "duration": "05:37",
+        "description": "အသေးစိတ်အမူအရာရှုမှု (သမ္ပဇညပိုင်း)"
     },
     {
         "title": "15",
         "id": "bAOGyqQzLWw",
-        "duration": "6:19"
+        "duration": "06:19",
+        "description": "ဝိပဿနာ၏ အဓိပ္ပာယ်ဖွင့်ဆိုချက်"
     },
     {
         "title": "16",
         "id": "C1DFMx1nhwI",
-        "duration": "5:30"
+        "duration": "05:30",
+        "description": "သတိပဋ္ဌာန်လေးပါးနဲ့ ယာနိက/စရိုက်တွဲစပ်ပုံ"
     },
     {
         "title": "17",
         "id": "_IAdhNy8Wus",
-        "duration": "8:33"
+        "duration": "08:33",
+        "description": "ဖြစ်ပျက်မြင်ရင် ဒိဋ္ဌိပြုတ်ပုံ(ပွားပြုတ်)"
     },
     {
         "title": "18",
         "id": "9zkILfXr8fE",
-        "duration": "5:30"
+        "duration": "05:30",
+        "description": "ဝိစိကိစ္ဆာရှစ်ပါး (အဘိဓမ္မာနည်း)"
     },
     {
         "title": "19",
         "id": "JqxIOpm79Lo",
-        "duration": "6:10"
+        "duration": "06:10",
+        "description": "သုတ္တန်နည်း ဝိစိကိစ္ဆာ (၁၆)ပါး"
     },
     {
         "title": "20",
         "id": "oo3mqNpbDLI",
-        "duration": "6:05"
+        "duration": "06:05",
+        "description": "သမာဓိထူထောင်ပုံ(တရားထိုင်နည်း)"
     },
     {
         "title": "21",
         "id": "it4LO36LWpY",
-        "duration": "8:35"
+        "duration": "08:35",
+        "description": "သမာဓိထူထောင်ပုံ(အဆက်)"
     },
     {
         "title": "22",
         "id": "GQRSk_nX3eU",
-        "duration": "6:58"
+        "duration": "06:58",
+        "description": "မဂ်ဉာဏ်အမြင်"
     },
     {
         "title": "23",
         "id": "BIVTEqdEC18",
-        "duration": "7:29"
+        "duration": "07:29",
+        "description": "မဂ်ဉာဏ်၏သစ္စာသိပုံ"
     },
     {
         "title": "24",
         "id": "kMfPhDk1P1A",
-        "duration": "9:04"
+        "duration": "09:04",
+        "description": "အဝိဇ္ဇာမသိခြင်း(၈)ချက်"
     },
     {
         "title": "25",
         "id": "oURraQRt8eM",
-        "duration": "7:38"
+        "duration": "07:38",
+        "description": "သင်္ခါရ(၆)မျိုး (အဝိဇ္ဇာပစ္စယာ သင်္ခါရာ)"
     },
     {
         "title": "26",
         "id": "D1TtnGjoSmE",
-        "duration": "6:44"
+        "duration": "06:44",
+        "description": "သင်္ခါရပစ္စယာ ဝိညာဏံ"
     },
     {
         "title": "27",
         "id": "_LVmq0RWLE0",
-        "duration": "3:30"
+        "duration": "03:30",
+        "description": "ဝိညာဏပစ္စယာ နာမရူပံ"
     },
     {
         "title": "28",
         "id": "n4Ai-RRyy60",
-        "duration": "5:08"
+        "duration": "05:08",
+        "description": "နာမရူပပစ္စယာ သဠာယတနံ"
     },
     {
         "title": "29",
         "id": "DKYLQL3vELY",
-        "duration": "5:47"
+        "duration": "05:47",
+        "description": "သဠာယတနပစ္စယာ ဖဿော"
     },
     {
         "title": "30",
         "id": "4-VQGox6uoE",
-        "duration": "4:15"
+        "duration": "04:15",
+        "description": "ဖဿပစ္စယာ ဝေဒနာ"
     },
     {
         "title": "31",
         "id": "yF-vt2gL-uA",
-        "duration": "4:42"
+        "duration": "04:42",
+        "description": "ဝေဒနာပစ္စယာ တဏှာ"
     },
     {
         "title": "32",
         "id": "GSZJf9KS-KI",
-        "duration": "7:51"
+        "duration": "07:51",
+        "description": "ဝေဒနာသုံးမျိုး/ ဝေဒနာငါးမျိုး"
     },
     {
         "title": "33",
         "id": "itw1DtMMz1c",
-        "duration": "6:26"
+        "duration": "06:26",
+        "description": "မဂ္ဂ အဓိပ္ပါယ်"
     },
     {
         "title": "34",
         "id": "kEX5WskFw3Q",
-        "duration": "8:13"
+        "duration": "08:13",
+        "description": "သတိပဋ္ဌာန်, မဂ္ဂင်, ဉာဏ်စဉ်"
     },
     {
         "title": "35",
         "id": "6Tva6xlKUgs",
-        "duration": "3:53"
+        "duration": "03:53",
+        "description": "သမ္မာဝါယမ (=သမ္မပ္ပဓာန် ၄-ပါး)"
     },
     {
         "title": "36",
         "id": "5XKhOyM1gfo",
-        "duration": "8:53"
+        "duration": "08:53",
+        "description": "စိတ္တာနုပဿနာ (ပင့်ကူဥပမာ)"
     },
     {
         "title": "37",
         "id": "NNHHg2vC7IA",
-        "duration": "6:34"
+        "duration": "06:34",
+        "description": "သမ္မာသမာဓိ"
     },
     {
         "title": "38",
         "id": "xCwEG30NopM",
-        "duration": "8:24"
+        "duration": "08:24",
+        "description": "သမာဓိမဂ္ဂင်သုံးပါးရဲ့ အလုပ်လုပ်ပုံ"
     },
     {
         "title": "39",
         "id": "ACkLtIozUFI",
-        "duration": "8:15"
+        "duration": "08:15",
+        "description": "ပညာမဂ္ဂင်ပါဝင်လာပုံ"
     },
     {
         "title": "40",
         "id": "YesdYR82-a8",
-        "duration": "5:58"
+        "duration": "05:58",
+        "description": "အမြတ်ဆုံးကြည်‌ညိုခြင်း"
     },
     {
         "title": "41",
         "id": "n10hhYNG-_0",
-        "duration": "8:55"
+        "duration": "08:55",
+        "description": "ဓမ္မံ သရဏံ ဂစ္ဆာမိ- အရ"
     },
     {
         "title": "42",
         "id": "fASClnYqEAM",
-        "duration": "6:16"
+        "duration": "06:16",
+        "description": "သောတာပန်ပုဂ္ဂိုလ်ရဲ့အင်္ဂါလေးပါး(ဓမ္မာဒါသ-တရားမှန်)"
     },
     {
         "title": "43",
         "id": "hij_Hl_ICYE",
-        "duration": "7:22"
+        "duration": "07:22",
+        "description": "မနောပေါက်ဝိပဿနာရှုနည်း"
     },
     {
         "title": "44",
         "id": "EaUb2yqYIxY",
-        "duration": "8:56"
+        "duration": "08:56",
+        "description": "မနောပေါက်ရှုနည်း-၂ (စိတ္တာနုပဿနာ)"
     },
     {
         "title": "45",
         "id": "mWr9ETa9aWE",
-        "duration": "11:33"
+        "duration": "11:33",
+        "description": "မျောက်ဥပမာပြရှုပွားနည်း(စိတ္တာနုပဿနာ)"
     },
     {
         "title": "46",
         "id": "A0GDBWQyG1c",
-        "duration": "9:15"
+        "duration": "09:15",
+        "description": "ပစ္စုပ္ပန်ခန္ဓာပဋိစ္စသမုပ္ပါဒ်ရှုနည်း (စိတ္တာနုပဿနာ)"
     },
     {
         "title": "47",
         "id": "Zfh0bjRr_Fk",
-        "duration": "6:43"
+        "duration": "06:43",
+        "description": "သမ္မာဒိဋ္ဌိ အဓိပ္ပါယ်"
     },
     {
         "title": "48",
         "id": "FADXjtxqrP0",
-        "duration": "10:36"
+        "duration": "10:36",
+        "description": "သမ္မာဒိဋ္ဌိ ငါးမျိုး"
     },
     {
         "title": "49",
         "id": "WhtPFtGsrQY",
-        "duration": "8:11"
+        "duration": "08:11",
+        "description": "ဝိပဿနာ သမ္မာဒိဋ္ဌိ"
     },
     {
         "title": "50",
         "id": "yHtuyRGl10c",
-        "duration": "8:33"
+        "duration": "08:33",
+        "description": "ဝိပဿနာသမ္မာဒိဋ္ဌိ၊မဂ်သမ္မာဒိဋ္ဌိ"
     },
     {
         "title": "51",
         "id": "VwzYRBk-tbE",
-        "duration": "9:02"
+        "duration": "09:02",
+        "description": "အကျိုးခုနှစ်ချက် အာမခံချက်"
     },
     {
         "title": "52",
         "id": "3cFAf0xwnmQ",
-        "duration": "12:12"
+        "duration": "12:12",
+        "description": "စိတ်ကိုလျော့ချနည်း(နှလုံးသွင်းနည်း)"
     },
     {
         "title": "53",
         "id": "g198bU_FHNs",
-        "duration": "10:18"
+        "duration": "10:18",
+        "description": "လက်တွေ့အားထုတ်ခြင်း(အာနာပါနအခြေခံ)"
     },
     {
         "title": "54",
         "id": "hTGnZPJBNMQ",
-        "duration": "10:03"
+        "duration": "10:03",
+        "description": "ကိုယ်သာနာစေ၊ စိတ်မနာစေနဲ့"
     },
     {
         "title": "55",
         "id": "o2RLnYw_TX8",
-        "duration": "10:12"
+        "duration": "10:12",
+        "description": "ပုဗ္ဗကိစ္စငါးပါးဆောင်ရွက်ပုံ"
     },
     {
         "title": "57",
         "id": "gvbS_ClFZfc",
-        "duration": "10:41"
+        "duration": "10:41",
+        "description": "ဝိပဿနာသမ္မာဒိဋ္ဌိ၏စူးစမ်းဆင်ခြင်ပုံ"
     },
     {
         "title": "58",
         "id": "OlMkfgmjO90",
-        "duration": "10:49"
+        "duration": "10:49",
+        "description": "ဝိပဿနာသမ္မာဒိဋ္ဌိနှင့်မဂ်သမ္မာဒိဋ္ဌိ"
     },
     {
         "title": "59",
         "id": "r4b9-vBfDzQ",
-        "duration": "12:05"
+        "duration": "12:05",
+        "description": "ဝိပဿနာသမ္မာဒိဋ္ဌိ၊ မဂ်သမ္မာဒိဋ္ဌိ"
     },
     {
         "title": "60",
         "id": "Rgxj_C1oyXg",
-        "duration": "13:00"
+        "duration": "13:00",
+        "description": "ဘင်္ဂဉာဏ်(အရေးပါသောဝိပဿနာဉာဏ်)"
     },
     {
         "title": "61",
         "id": "oVT55QOKLw0",
-        "duration": "8:18"
+        "duration": "08:18",
+        "description": "အမည်လေးမျိုး, သစ္စာဆိုက်ပုံ"
     },
     {
         "title": "62",
         "id": "C01J0UxHYko",
-        "duration": "13:13"
+        "duration": "13:13",
+        "description": "သမ္မာသင်္ကပ္ပ(ဝိတက်သုံးမျိုး)"
     },
     {
         "title": "63",
         "id": "qUyhVgWnPrA",
-        "duration": "8:32"
+        "duration": "08:32",
+        "description": "သမ္မာသင်္ကပ္ပ(အဘိနိရောပနလက္ခဏာ)"
     },
     {
         "title": "64",
         "id": "Bfh2mzih1Js",
-        "duration": "9:11"
+        "duration": "09:11",
+        "description": "ဥပါဒါန်အဓိပ္ပါယ် (တဏှာနှင့်ဥပါဒါန်အထူး)"
     },
     {
         "title": "65",
         "id": "_oC3lJZUSUc",
-        "duration": "8:11"
+        "duration": "08:11",
+        "description": "ကာမုပါဒါန်"
     },
     {
         "title": "65",
         "id": "_oC3lJZUSUc",
-        "duration": "8:11"
+        "duration": "08:11",
+        "description": "ဒိဋ္ဌုပါဒါန်"
     },
     {
         "title": "66",
         "id": "T0vCgdDQHrU",
-        "duration": "6:39"
+        "duration": "06:39",
+        "description": "သီလဗ္ဗတုပါဒါန်"
     },
     {
         "title": "67",
         "id": "-Cg5L2bSklU",
-        "duration": "8:18"
+        "duration": "08:18",
+        "description": "အတ္တဝါဒုပါဒါန်"
     },
     {
         "title": "68",
         "id": "dih46owlmnI",
-        "duration": "8:32"
+        "duration": "08:32",
+        "description": "ပဋိစ္စသမုပ္ပါဒ်ကို မသိ၍ ဒိဋ္ဌိ ၆၂ ပါးဖြစ်ပုံ"
     },
     {
         "title": "69",
         "id": "xj9aneNtnAM",
-        "duration": "8:56"
+        "duration": "08:56",
+        "description": "ဥပါဒါနက္ခန္ဓာ(ဝိပဿနာရှုရမယ့်ခန္ဓာ)"
     },
     {
         "title": "70",
         "id": "U7Z1aCnzWEc",
-        "duration": "12:54"
+        "duration": "12:54",
+        "description": "ဥပါဒါနပစ္စယာ ဘဝေါ"
     },
     {
         "title": "71",
         "id": "1bDuWzhEwic",
-        "duration": "9:53"
+        "duration": "09:53",
+        "description": "သင်္ခါရနှင့် ကမ္မဘဝအထူး"
     },
     {
         "title": "72",
         "id": "H3nvQ2MQUa0",
-        "duration": "8:28"
+        "duration": "08:28",
+        "description": "ကာမုပါဒါန်ကြောင့် ဘဝဖြစ်ပုံ"
     },
     {
         "title": "73",
         "id": "ZtW16ZgHBj0",
-        "duration": "8:01"
+        "duration": "08:01",
+        "description": "ဒိဋ္ဌုပါဒါန်ကြောင့်ဘဝဖြစ်ပုံ"
     },
     {
         "title": "74",
         "id": "gV_ZefqFlnI",
-        "duration": "9:14"
+        "duration": "09:14",
+        "description": "သီလဗ္ဗတုပါဒါန်၊ အတ္တဝါဒုပါဒါန် ကြောင့်ဘဝဖြစ်ပုံ"
     },
     {
         "title": "75",
         "id": "XtWMbMm3rvI",
-        "duration": "8:33"
+        "duration": "08:33",
+        "description": "ဒိဋ္ဌုပါဒါန်မှနတ္ထိကဒိဋ္ဌိသို့"
     },
     {
         "title": "76",
         "id": "ZwDDWwaINkA",
-        "duration": "9:07"
+        "duration": "09:07",
+        "description": "နိယတမိစ္ဆာဒိဋ္ဌိ(အ‌ကိရိယဒိဋ္ဌိ)"
     },
     {
         "title": "77",
         "id": "ZUAyIjPmuPI",
-        "duration": "7:52"
+        "duration": "07:52",
+        "description": ""
     },
     {
         "title": "78",
         "id": "ZxWIlbkz9AQ",
-        "duration": "14:13"
+        "duration": "14:13",
+        "description": ""
     },
     {
         "title": "79",
         "id": "IE_Lm7Ya5rk",
-        "duration": "20:08"
+        "duration": "20:08",
+        "description": ""
     },
     {
         "title": "80",
         "id": "xR7F_VWo_B0",
-        "duration": "20:15"
+        "duration": "20:15",
+        "description": ""
     },
     {
         "title": "81",
         "id": "yG8KYQmUU_c",
-        "duration": "24:36"
+        "duration": "24:36",
+        "description": ""
     },
     {
         "title": "82",
         "id": "ds3vibc-nhI",
-        "duration": "22:17"
+        "duration": "22:17",
+        "description": ""
     },
     {
         "title": "83",
         "id": "24Ct50OMpGQ",
-        "duration": "20:54"
+        "duration": "20:54",
+        "description": ""
     },
     {
         "title": "84",
         "id": "-NlbY_63lDE",
-        "duration": "25:41"
+        "duration": "25:41",
+        "description": ""
     },
     {
         "title": "85",
         "id": "UNFiyj2hM-Y",
-        "duration": "20:37"
+        "duration": "20:37",
+        "description": ""
     },
     {
         "title": "86",
         "id": "fxRO0giyjIY",
-        "duration": "18:17"
+        "duration": "18:17",
+        "description": ""
     },
     {
         "title": "87",
         "id": "W_bRK9kL-T0",
-        "duration": "21:07"
+        "duration": "21:07",
+        "description": ""
     },
     {
         "title": "88",
         "id": "93bBlOO6-Oc",
-        "duration": "13:13"
+        "duration": "13:13",
+        "description": ""
     },
     {
         "title": "89",
         "id": "c4F9LyzOP8E",
-        "duration": "12:38"
+        "duration": "12:38",
+        "description": ""
     },
     {
         "title": "90",
         "id": "_nCoJ04ewg4",
-        "duration": "19:34"
+        "duration": "19:34",
+        "description": ""
     },
     {
         "title": "91",
         "id": "T07hCafzvVg",
-        "duration": "13:19"
+        "duration": "13:19",
+        "description": ""
     },
     {
         "title": "92",
         "id": "Tbu11pIsmCU",
-        "duration": "22:16"
+        "duration": "22:16",
+        "description": ""
     },
     {
         "title": "93",
         "id": "tkjylMFh0i8",
-        "duration": "16:22"
+        "duration": "16:22",
+        "description": ""
     },
     {
         "title": "94",
         "id": "zzTBIHMqa9U",
-        "duration": "20:46"
+        "duration": "20:46",
+        "description": ""
     },
     {
         "title": "95",
         "id": "P6uAmiWFSyI",
-        "duration": "23:53"
+        "duration": "23:53",
+        "description": ""
     },
     {
         "title": "96",
         "id": "711vzDT6-mg",
-        "duration": "24:17"
+        "duration": "24:17",
+        "description": ""
     },
     {
         "title": "97",
         "id": "9o-x015ZJLM",
-        "duration": "13:01"
+        "duration": "13:01",
+        "description": ""
     },
     {
         "title": "98",
         "id": "6VuLIubxQ7c",
-        "duration": "10:35"
+        "duration": "10:35",
+        "description": ""
     },
     {
         "title": "99",
         "id": "CcYY-QwWr_o",
-        "duration": "9:08"
+        "duration": "09:08",
+        "description": ""
     },
     {
         "title": "100",
         "id": "BlBvxiv7bA0",
-        "duration": "17:56"
+        "duration": "17:56",
+        "description": ""
     }
 ]
