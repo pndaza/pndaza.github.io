@@ -1,0 +1,26 @@
+[
+    {
+        "name": "online ဝိပဿနာ",
+        "url": "https://pndaza.github.io/data/online_vipassana.json"
+    },
+    {
+        "name": "online အဘိဓမ္မာ",
+        "url": "https://pndaza.github.io/data/online_abhidhamma.json"
+    },
+    {
+        "name": "online ပဋ္ဌာန်း",
+        "url": "https://pndaza.github.io/data/online_patthana.json"
+    },
+    {
+        "name": "၂၀၂၂ ဝါတွင်း",
+        "url": "https://pndaza.github.io/data/vassa_2022.json"
+    },
+    {
+        "name": "၂၀၂၂ ဝါတွင်း အာစိဏ္ဏကံ",
+        "url": "https://pndaza.github.io/data/vassa_2022_practice.json"
+    },
+    {
+        "name": "ယောဂီသစ်လက်တွေ့လေ့ကျင့်ရန်",
+        "url": "https://pndaza.github.io/data/pragmatic_method_for_new_yogi.json"
+    }
+]

@@ -237,7 +237,7 @@
         "title": "40",
         "id": "YesdYR82-a8",
         "duration": "05:58",
-        "description": "အမြတ်ဆုံးကြည်‌ညိုခြင်း"
+        "description": "အမြတ်ဆုံးကြည်ညိုခြင်း"
     },
     {
         "title": "41",
@@ -384,219 +384,213 @@
         "description": "ကာမုပါဒါန်"
     },
     {
-        "title": "65",
-        "id": "_oC3lJZUSUc",
-        "duration": "08:11",
-        "description": "ဒိဋ္ဌုပါဒါန်"
-    },
-    {
         "title": "66",
         "id": "T0vCgdDQHrU",
         "duration": "06:39",
-        "description": "သီလဗ္ဗတုပါဒါန်"
+        "description": "ဒိဋ္ဌုပါဒါန်"
     },
     {
         "title": "67",
         "id": "-Cg5L2bSklU",
         "duration": "08:18",
-        "description": "အတ္တဝါဒုပါဒါန်"
+        "description": "သီလဗ္ဗတုပါဒါန်"
     },
     {
         "title": "68",
         "id": "dih46owlmnI",
         "duration": "08:32",
-        "description": "ပဋိစ္စသမုပ္ပါဒ်ကို မသိ၍ ဒိဋ္ဌိ ၆၂ ပါးဖြစ်ပုံ"
+        "description": "အတ္တဝါဒုပါဒါန်"
     },
     {
         "title": "69",
         "id": "xj9aneNtnAM",
         "duration": "08:56",
-        "description": "ဥပါဒါနက္ခန္ဓာ(ဝိပဿနာရှုရမယ့်ခန္ဓာ)"
+        "description": "ပဋိစ္စသမုပ္ပါဒ်ကို မသိ၍ ဒိဋ္ဌိ ၆၂ ပါးဖြစ်ပုံ"
     },
     {
         "title": "70",
         "id": "U7Z1aCnzWEc",
         "duration": "12:54",
-        "description": "ဥပါဒါနပစ္စယာ ဘဝေါ"
+        "description": "ဥပါဒါနက္ခန္ဓာ(ဝိပဿနာရှုရမယ့်ခန္ဓာ)"
     },
     {
         "title": "71",
         "id": "1bDuWzhEwic",
         "duration": "09:53",
-        "description": "သင်္ခါရနှင့် ကမ္မဘဝအထူး"
+        "description": "ဥပါဒါနပစ္စယာ ဘဝေါ"
     },
     {
         "title": "72",
         "id": "H3nvQ2MQUa0",
         "duration": "08:28",
-        "description": "ကာမုပါဒါန်ကြောင့် ဘဝဖြစ်ပုံ"
+        "description": "သင်္ခါရနှင့် ကမ္မဘဝအထူး"
     },
     {
         "title": "73",
         "id": "ZtW16ZgHBj0",
         "duration": "08:01",
-        "description": "ဒိဋ္ဌုပါဒါန်ကြောင့်ဘဝဖြစ်ပုံ"
+        "description": "ကာမုပါဒါန်ကြောင့် ဘဝဖြစ်ပုံ"
     },
     {
         "title": "74",
         "id": "gV_ZefqFlnI",
         "duration": "09:14",
-        "description": "သီလဗ္ဗတုပါဒါန်၊ အတ္တဝါဒုပါဒါန် ကြောင့်ဘဝဖြစ်ပုံ"
+        "description": "ဒိဋ္ဌုပါဒါန်ကြောင့်ဘဝဖြစ်ပုံ"
     },
     {
         "title": "75",
         "id": "XtWMbMm3rvI",
         "duration": "08:33",
-        "description": "ဒိဋ္ဌုပါဒါန်မှနတ္ထိကဒိဋ္ဌိသို့"
+        "description": "သီလဗ္ဗတုပါဒါန်၊ အတ္တဝါဒုပါဒါန် ကြောင့်ဘဝဖြစ်ပုံ"
     },
     {
         "title": "76",
         "id": "ZwDDWwaINkA",
         "duration": "09:07",
-        "description": "နိယတမိစ္ဆာဒိဋ္ဌိ(အ‌ကိရိယဒိဋ္ဌိ)"
+        "description": "ဒိဋ္ဌုပါဒါန်မှနတ္ထိကဒိဋ္ဌိသို့"
     },
     {
         "title": "77",
         "id": "ZUAyIjPmuPI",
         "duration": "07:52",
-        "description": ""
+        "description": "နိယတမိစ္ဆာဒိဋ္ဌိ(အကိရိယဒိဋ္ဌိ)"
     },
     {
         "title": "78",
         "id": "ZxWIlbkz9AQ",
         "duration": "14:13",
-        "description": ""
+        "description": "အဟေတုကဒိဋ္ဌိ"
     },
     {
         "title": "79",
         "id": "IE_Lm7Ya5rk",
         "duration": "20:08",
-        "description": ""
+        "description": "သမ္မာဒိဋ္ဌိဝင်လာလျှင်မိစ္ဆာဒိဋ္ဌိပြုတ်ပုံ"
     },
     {
         "title": "80",
         "id": "xR7F_VWo_B0",
         "duration": "20:15",
-        "description": ""
+        "description": "ပညတ်/ပရမတ်ခွဲပုံ"
     },
     {
         "title": "81",
         "id": "yG8KYQmUU_c",
         "duration": "24:36",
-        "description": ""
+        "description": "ပညတ်ပရမတ်ခွဲ/ ရုပ်နာမ်ခွဲ"
     },
     {
         "title": "82",
         "id": "ds3vibc-nhI",
         "duration": "22:17",
-        "description": ""
+        "description": "သိမှု ဉာတပရိညာ"
     },
     {
         "title": "83",
         "id": "24Ct50OMpGQ",
         "duration": "20:54",
-        "description": ""
+        "description": "အာရုံ+ဒွါရကြောင့်စိတ်ဖြစ်ပုံ"
     },
     {
         "title": "84",
         "id": "-NlbY_63lDE",
         "duration": "25:41",
-        "description": ""
+        "description": "အာရုံ+ဒွါရကြောင့်စိတ်ဖြစ်ပုံ (၂)"
     },
     {
         "title": "85",
         "id": "UNFiyj2hM-Y",
         "duration": "20:37",
-        "description": ""
+        "description": "စူဠသောတာပန်(ဒိဋ္ဌိ,ဝိစိ သိပြုတ်)"
     },
     {
         "title": "86",
         "id": "fxRO0giyjIY",
         "duration": "18:17",
-        "description": ""
+        "description": "စူဠသောတာပန်(ဒိဋ္ဌိ,ဝိစိ သိပြုတ်) (၂)"
     },
     {
         "title": "87",
         "id": "W_bRK9kL-T0",
         "duration": "21:07",
-        "description": ""
+        "description": "ဉာတပရိညာမှ တီရဏပရိညာသို့"
     },
     {
         "title": "88",
         "id": "93bBlOO6-Oc",
         "duration": "13:13",
-        "description": ""
+        "description": "ဘဝပစ္စယာ ဇာတိ"
     },
     {
         "title": "89",
         "id": "c4F9LyzOP8E",
         "duration": "12:38",
-        "description": ""
+        "description": "သောက,ပရိဒေဝ,ဒုက္ခ,ဒေါမနဿ,ဥပါယာသ"
     },
     {
         "title": "90",
         "id": "_nCoJ04ewg4",
         "duration": "19:34",
-        "description": ""
+        "description": "ဘုရားလောင်း၏ဝိပဿနာ"
     },
     {
         "title": "91",
         "id": "T07hCafzvVg",
         "duration": "13:19",
-        "description": ""
+        "description": "ဉာဏ်(၇၇)ပါး"
     },
     {
         "title": "92",
         "id": "Tbu11pIsmCU",
         "duration": "22:16",
-        "description": ""
+        "description": "ဉာဏ်(၄၄)ပါး"
     },
     {
         "title": "93",
         "id": "tkjylMFh0i8",
         "duration": "16:22",
-        "description": ""
+        "description": "ဧဝံ =ဤနည်းဖြင့်"
     },
     {
         "title": "94",
         "id": "zzTBIHMqa9U",
         "duration": "20:46",
-        "description": ""
+        "description": "ဒုက္ခက္ခန္ဓဿ= ဒုက္ခအစု"
     },
     {
         "title": "95",
         "id": "P6uAmiWFSyI",
         "duration": "23:53",
-        "description": ""
+        "description": "ဒုက္ခက္ခန္ဓဿ= ဒုက္ခအစု (၂)"
     },
     {
         "title": "96",
         "id": "711vzDT6-mg",
         "duration": "24:17",
-        "description": ""
+        "description": "ဒုက္ခနှင့်ဒုက္ခချုပ်ရာ(အနုရာဓသုတ်)"
     },
     {
         "title": "97",
         "id": "9o-x015ZJLM",
         "duration": "13:01",
-        "description": ""
+        "description": "သောတာပန်တည်ကြောင်းအင်္ဂါ(၄)ပါး"
     },
     {
         "title": "98",
         "id": "6VuLIubxQ7c",
         "duration": "10:35",
-        "description": ""
+        "description": "မဂ်သမ္မာဒိဋ္ဌိဖြစ်ဖို့ (၂)ချက်"
     },
     {
         "title": "99",
         "id": "CcYY-QwWr_o",
         "duration": "09:08",
-        "description": ""
+        "description": "ဧကတ္တနည်း၊ နာနတ္တနည်း(ပဋိစ္စသမုပ္ပါဒ်နည်း(၄)နည်း)"
     },
     {
         "title": "100",
         "id": "BlBvxiv7bA0",
         "duration": "17:56",
-        "description": ""
+        "description": "နည်းလေးနည်း (ဒိဋ္ဌိပြုတ်ပုံ)"
     }
 ]
