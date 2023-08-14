@@ -1,467 +1,560 @@
 [
   {
-    "title": "01",
+    "title": "1",
     "id": "IHgyzv7Fw-4",
-    "duration": "7:15"
+    "duration": "07:15",
+    "description": "ပဋ္ဌာန်းမိတ်ဆက်"
   },
   {
-    "title": "02",
+    "title": "2",
     "id": "HLWa6TzPz6g",
-    "duration": "5:53"
+    "duration": "05:53",
+    "description": "ပစ္စယသတ္တိအကျဥ်းပြဆိုခြင်း(စေတု,အာရမ္မဏ)"
   },
   {
-    "title": "03",
+    "title": "3",
     "id": "8OXzZi_Ha38",
-    "duration": "4:14"
+    "duration": "04:14",
+    "description": "အဓိပတိသတ္တိ"
   },
   {
-    "title": "04",
+    "title": "4",
     "id": "m36VrwuLtLwÏ",
-    "duration": "4:03"
+    "duration": "04:03",
+    "description": "အနန္တရ,သမနန္တရ"
   },
   {
-    "title": "05",
+    "title": "5",
     "id": "EkLwgyVBpOk",
-    "duration": "7:13"
+    "duration": "07:13",
+    "description": "သဟဇာတ, အညမည, နိဿယ"
   },
   {
-    "title": "06",
+    "title": "6",
     "id": "G1Ev0_wNBVo",
-    "duration": "8:18"
+    "duration": "08:18",
+    "description": "ဥပနိဿယ,ပုရေဇာတ,ပစ္ဆာဇာတ"
   },
   {
-    "title": "07",
+    "title": "7",
     "id": "aBxRGOfPwog",
-    "duration": "5:57"
+    "duration": "05:57",
+    "description": "အာသေဝန,ကမ္မ,ဝိပါက"
   },
   {
-    "title": "08",
+    "title": "8",
     "id": "uGC0er_gYLg",
-    "duration": "6:07"
+    "duration": "06:07",
+    "description": "အာဟာရ,ဣန္ဒြိယ,ဈာန,မဂ္ဂ"
   },
   {
-    "title": "09",
+    "title": "9",
     "id": "mSwvgU4QSpQ",
-    "duration": "4:07"
+    "duration": "04:07",
+    "description": "သမ္ပယုတ္တ, ဝိပ္ပယုတ္တ"
   },
   {
     "title": "10",
     "id": "xVya7yrbfTE",
-    "duration": "6:03"
+    "duration": "06:03",
+    "description": "အတ္ထိ, နတ္ထိ, ဝိဂတ, အဝိဂတ"
   },
   {
     "title": "11",
     "id": "DtVzLlBPCDQ",
-    "duration": "7:08"
+    "duration": "07:08",
+    "description": "ဟေတုပစ္စယော"
   },
   {
     "title": "001(ကန်ပတ်လည်ဆရာတော်)",
     "id": "R8LEvdlDiDs",
-    "duration": "24:09"
+    "duration": "24:09:00",
+    "description": ""
   },
   {
     "title": "002(ကြာနီကန်ဆရာတော်)",
     "id": "G04SxsJu2Eg",
-    "duration": "30:22"
+    "duration": "30:22:00",
+    "description": ""
   },
   {
     "title": "003(မင်းကွန်းဆရာတော်)",
     "id": "GY75B05t1Hg",
-    "duration": "28:25"
+    "duration": "28:25:00",
+    "description": ""
   },
   {
     "title": "004(ရွှေလင်းယုန်ဆရာတော်)",
     "id": "ltbmMvjOrrs",
-    "duration": "29:43"
+    "duration": "29:43:00",
+    "description": ""
   },
   {
     "title": "005(သီတဂူဆရာတော်)",
     "id": "_y9__lxuM1Q",
-    "duration": "22:17"
+    "duration": "22:17",
+    "description": ""
   },
   {
     "title": "006(ဓမ္မဒူတဆရာတော်)",
     "id": "SkPRhzDywt0",
-    "duration": "20:27"
+    "duration": "20:27",
+    "description": ""
   },
   {
     "title": "12",
     "id": "USNx3kzbhKo",
-    "duration": "7:09"
+    "duration": "07:09",
+    "description": "၂၄ ပစ္စည်း (ပစ္စယနိဒ္ဒေသ) မြန်မာဘာသာပြန်နည်း"
   },
   {
     "title": "13",
     "id": "GbCOuw3_nzs",
-    "duration": "3:56"
+    "duration": "03:56",
+    "description": "အာရမ္မဏပစ္စယော"
   },
   {
     "title": "14",
     "id": "V-U7b9CxoaQ",
-    "duration": "6:40"
+    "duration": "06:40",
+    "description": "သဗ္ဗေဓမ္မာ, မနောဝိညာဏဓာတ်"
   },
   {
     "title": "15",
     "id": "0WphJIEWG50",
-    "duration": "4:59"
+    "duration": "04:59",
+    "description": "ယံ ယံ ဓမ္မံ"
   },
   {
     "title": "16",
     "id": "X7D8O1pyMNc",
-    "duration": "6:13"
+    "duration": "06:13",
+    "description": "အဓိပတိပစ္စယော(အဓိ=သာလွန်သော၊ပတိ=အရှင်သခင်)"
   },
   {
     "title": "17",
     "id": "rQVzRe8m65Y",
-    "duration": "5:40"
+    "duration": "05:40",
+    "description": "သဟဇာတာဓိပတိ"
   },
   {
     "title": "18",
     "id": "TVxh_JVhKlY",
-    "duration": "6:11"
+    "duration": "06:11",
+    "description": "ဣဒ္ဓိပါဒ(ဆန္ဒ,ဝီရိယ,စိတ်,ဝီမံသ)"
   },
   {
     "title": "19",
     "id": "EaoiaYzZ7UI",
-    "duration": "6:21"
+    "duration": "06:21",
+    "description": "အာရမ္မဏာဓိပတိ(အလေးအမြတ်ပြုအပ်သောအာရုံ)"
   },
   {
     "title": "20",
     "id": "dhk0PRcHZQ4",
-    "duration": "9:31"
+    "duration": "09:31",
+    "description": "အနန္တရပစ္စယော(န+အန္တရ။အန္တရ=အခြား၊န=မရှိ)"
   },
   {
     "title": "21",
     "id": "nndRQi1TFuI",
-    "duration": "7:28"
+    "duration": "07:28",
+    "description": "ပဉ္စဒွါရဝီထိ ဖြစ်ပုံ သရက်သီးကြွေသည့် ဥပမာ"
   },
   {
     "title": "22",
     "id": "DZf6TpcGIhk",
-    "duration": "7:16"
+    "duration": "07:16",
+    "description": "အနန္တရပစ္စယော(ပါဠိတော်ဟောပုံ)"
   },
   {
     "title": "23",
     "id": "4JXX2b9qz6A",
-    "duration": "7:05"
+    "duration": "07:05",
+    "description": "စိတ်အစဉ်တန်း-ဝီထိ"
   },
   {
     "title": "24",
     "id": "FQAvpxtedKU",
-    "duration": "9:26"
+    "duration": "09:26",
+    "description": "သမနန္တရပစ္စယော"
   },
   {
     "title": "25",
     "id": "w4ZuDDFzbUA",
-    "duration": "8:35"
+    "duration": "08:35",
+    "description": "သဟဇာတပစ္စယော (သဟ=အတူတကွ၊ ဇာတ=ဖြစ်ခြင်း)"
   },
   {
     "title": "26",
     "id": "1Uzf7UnWCbE",
-    "duration": "8:43"
+    "duration": "08:43",
+    "description": "သဟဇာတပစ္စယော (အဆက်)"
   },
   {
     "title": "27",
     "id": "BDKEGLAOHYE",
-    "duration": "5:24"
+    "duration": "05:24",
+    "description": "အညမညပစ္စယော"
   },
   {
     "title": "28",
     "id": "ekeJhBY6Epg",
-    "duration": "7:59"
+    "duration": "07:59",
+    "description": "နိဿယပစ္စယော (နိဿယ = မှီရာ)"
   },
   {
     "title": "29",
     "id": "NN2ulyPfF7w",
-    "duration": "5:32"
+    "duration": "05:32",
+    "description": "နိဿယပစ္စယော (အဆက်)"
   },
   {
     "title": "30",
     "id": "luiNMIIFJJ0",
-    "duration": "4:39"
+    "duration": "04:39",
+    "description": "ဥပနိဿယပစ္စယော"
   },
   {
     "title": "31",
     "id": "OuDeHtwwM6M",
-    "duration": "5:58"
+    "duration": "05:58",
+    "description": "ကေသဉ္စိအတွက် မှတ်ချက်"
   },
   {
     "title": "32",
     "id": "6fCIsRvkIbY",
-    "duration": "10:19"
+    "duration": "10:19",
+    "description": "ပကတူ (ကု-ကု,ကု-အကု,ကု-ဗျာ)"
   },
   {
     "title": "33",
     "id": "hnWPqIDhIqA",
-    "duration": "7:36"
+    "duration": "07:36",
+    "description": "ပကတူပနိဿယော(အကု=အကု,အကု-ကု)"
   },
   {
     "title": "34",
     "id": "8nKQS2Bwo2o",
-    "duration": "13:04"
+    "duration": "13:04",
+    "description": "ပကတူပနိဿယော(အကုု-ဗျာ)"
   },
   {
     "title": "35",
     "id": "DSgghBh9NN4",
-    "duration": "7:36"
+    "duration": "07:36",
+    "description": "ပုရေဇာတပစ္စယော(ပုရေ-ရှေ့၌၊ ဇာတ-ဖြစ်ခြင်း)"
   },
   {
     "title": "36",
     "id": "UP-dFCTNeBY",
-    "duration": "6:47"
+    "duration": "06:47",
+    "description": "ပုရေဇာတပစ္စယော(အဆက််)"
   },
   {
     "title": "37",
     "id": "OXHBX4XqmTM",
-    "duration": "7:55"
+    "duration": "07:55",
+    "description": "ဟဒယဝတ္ထုရုပ်က ပုရေဇာတပစ္စယသတ္တိဖြင့် ကျေးဇူပြုပုံ"
   },
   {
     "title": "38",
     "id": "1LzQWuUNFI8",
-    "duration": "6:50"
+    "duration": "06:50",
+    "description": "ပစ္ဆာဇာတပစ္စယော(ပစ္ဆာ-နောက်၌၊ ဇာတ-ဖြစ်ခြင်း)"
   },
   {
     "title": "39",
     "id": "PDgL29md6DQ",
-    "duration": "9:37"
+    "duration": "09:37",
+    "description": "အာသေဝန ပစ္စယော"
   },
   {
     "title": "40",
     "id": "WR6UwBanRa8",
-    "duration": "7:47"
+    "duration": "07:47",
+    "description": "အာသေဝန ပစ္စယော(အဆက်)"
   },
   {
     "title": "41",
     "id": "Rk87XIqLD4g",
-    "duration": "8:01"
+    "duration": "08:01",
+    "description": "ကမ္မပစ္စယော"
   },
   {
     "title": "42",
     "id": "6TeqiOjrgYo",
-    "duration": "8:39"
+    "duration": "08:39",
+    "description": "သဟဇာတကမ္မ"
   },
   {
     "title": "43",
     "id": "U__yqDQzkxE",
-    "duration": "9:28"
+    "duration": "09:28",
+    "description": "ဝိပါကပစ္စယော"
   },
   {
     "title": "44",
     "id": "njb-3hiKbH0",
-    "duration": "14:14"
+    "duration": "14:14",
+    "description": "အာဟာရပစ္စယော"
   },
   {
     "title": "45",
     "id": "lZaNwO2wZLw",
-    "duration": "9:53"
+    "duration": "09:53",
+    "description": "အာဟာရ လေးပါး ဆောင်ပုံ"
   },
   {
     "title": "46",
     "id": "2RRf_wRAd9g",
-    "duration": "12:08"
+    "duration": "12:08",
+    "description": "နာမ်အာဟာရ"
   },
   {
     "title": "47",
     "id": "7hHaCbBsPv0",
-    "duration": "10:24"
+    "duration": "10:24",
+    "description": "ဣန္ဒြိယပစ္စယော (ဣန္ဒြိယ = အစိုးရခြင်း)"
   },
   {
     "title": "48",
     "id": "IsUX5Wpoow8",
-    "duration": "8:30"
+    "duration": "08:30",
+    "description": "ဣန္ဒြိယပစ္စည်း (၃)"
   },
   {
     "title": "49",
     "id": "Iy7ZTyUu1eI",
-    "duration": "7:31"
+    "duration": "07:31",
+    "description": "စောင့်စည်း ရမည့် ဣန္ဒြေ (၆)ပါး"
   },
   {
     "title": "50",
     "id": "M2sZaeHRIhE",
-    "duration": "8:15"
+    "duration": "08:15",
+    "description": "ဇီဝိတိန္ဒြိယ"
   },
   {
     "title": "51",
     "id": "mugczydezFU",
-    "duration": "8:35"
+    "duration": "08:35",
+    "description": "ဣတ္ထိန္ဒြေ, ပုရိသိန္ဒြေ ကို မဟောရခြင်း အကြောင်း"
   },
   {
     "title": "52",
     "id": "2rtJa3oevFU",
-    "duration": "7:48"
+    "duration": "07:48",
+    "description": "ဝေဒနိန္ဒြေများ"
   },
   {
     "title": "53",
     "id": "DUiLos4I0A0",
-    "duration": "13:56"
+    "duration": "13:56",
+    "description": "စင်ကြယ်ကြောင်း ဣန္ဒြေများ"
   },
   {
     "title": "54",
     "id": "Dzqm7XR91CQ",
-    "duration": "10:18"
+    "duration": "10:18",
+    "description": "ချိန်ညှိရမည့် ဣန္ဒြေ(၅)ပါး"
   },
   {
     "title": "55",
     "id": "GT7wPtHVqrs",
-    "duration": "12:07"
+    "duration": "12:07",
+    "description": "သဟဇာတိန္ဒြိယ"
   },
   {
     "title": "56",
     "id": "RwCRxDRoMJk",
-    "duration": "7:47"
+    "duration": "07:47",
+    "description": "ဈာနပစ္စယော,"
   },
   {
     "title": "57",
     "id": "tSrYGW2ZKxM",
-    "duration": "10:44"
+    "duration": "10:44",
+    "description": "ဈာန်အင်္ဂါများ"
   },
   {
     "title": "58",
     "id": "A0UTJwyhhrI",
-    "duration": "11:13"
+    "duration": "11:13",
+    "description": "နိဿယ+အရကောက်"
   },
   {
     "title": "59",
     "id": "Cabqi8Hl_vQ",
-    "duration": "9:04"
+    "duration": "09:04",
+    "description": "မဂ္ဂပစ္စယော"
   },
   {
     "title": "60",
     "id": "AHUyg9cLV08",
-    "duration": "13:18"
+    "duration": "13:18",
+    "description": "တရားကိုယ်,အရကောက်"
   },
   {
     "title": "61",
     "id": "yj_hY2IYg9g",
-    "duration": "8:54"
+    "duration": "08:54",
+    "description": "မဂ္ဂပစ္စယသတ္တိ"
   },
   {
     "title": "62",
     "id": "kI2G_C8FmHo",
-    "duration": "9:03"
+    "duration": "09:03",
+    "description": "မဂ္ဂင်(၈)ပါး(သမ္မာမဂ္ဂင်)"
   },
   {
     "title": "63",
     "id": "WxGDnfba52A",
-    "duration": "9:58"
+    "duration": "09:58",
+    "description": "သမ္မာသင်္ကပ္ပ, မိစ္ဆာသင်္ကပ္ပ"
   },
   {
     "title": "64",
     "id": "CgZzH6sz9wY",
-    "duration": "10:31"
+    "duration": "10:31",
+    "description": "မိစ္ဆာမဂ္ဂင်များ"
   },
   {
     "title": "65",
     "id": "EMeTYHSkeE0",
-    "duration": "13:09"
+    "duration": "13:09",
+    "description": "သီလမဂ္ဂင်(၃)ပါး"
   },
   {
     "title": "66",
     "id": "bH8Ub4B-Rno",
-    "duration": "14:34"
+    "duration": "14:34",
+    "description": "သမာဓိမဂ္ဂင်(၃)ပါး"
   },
   {
     "title": "67",
     "id": "arjpyqiEApE",
-    "duration": "19:58"
+    "duration": "19:58",
+    "description": "သမ္ပယုတ္တပစ္စယော"
   },
   {
     "title": "68",
     "id": "RQr6t5ySWRs",
-    "duration": "11:39"
+    "duration": "11:39",
+    "description": "ပုရေဇာတပစ္စယော"
   },
   {
     "title": "69",
     "id": "NngEAlA52pc",
-    "duration": "22:42"
+    "duration": "22:42",
+    "description": "ပုရေဇာတပစ္စယော(အဆက်)"
   },
   {
     "title": "70",
     "id": "6OfyYNkGppk",
-    "duration": "14:43"
+    "duration": "14:43",
+    "description": "ပုရေဇာတဝိပ္ပယုတ္တ,ပစ္ဆာဇာတဝိပ္ပယုတ္တ"
   },
   {
-    "title": "lesson71",
+    "title": "71",
     "id": "likP4bDLp2Y",
-    "duration": "12:56"
+    "duration": "12:56",
+    "description": "အတ္ထိပစ္စယော။ (အတ္ထိ = ရှိခြင်း)"
   },
   {
     "title": "72",
     "id": "ovEAgQQtc1Y",
-    "duration": "9:20"
+    "duration": "09:20",
+    "description": "နတ္ထိပစ္စယော။ (နတ္ထိ = မရှိ)"
   },
   {
     "title": "73",
     "id": "LPwgDxp3XEs",
-    "duration": "8:00"
+    "duration": "08:00",
+    "description": "ဝိဂတပစ္စယော (ဝိဂတ = ကင်းခြင်း)"
   },
   {
     "title": "74",
     "id": "GS8j0tV_3Mo",
-    "duration": "12:12"
+    "duration": "12:12",
+    "description": "အဝိဂတပစ္စယော (အဝိဂတ = မကင်းသေး)"
   },
   {
     "title": "75",
     "id": "pnrRn9FFC9I",
-    "duration": "11:21"
+    "duration": "11:21",
+    "description": "ပုစ္ဆာဝါရ မိတ်ဆက်"
   },
   {
     "title": "76",
     "id": "_JSqALQ5OOo",
-    "duration": "14:42"
+    "duration": "14:42",
+    "description": "ပဋိစ္စဝါရမိတ်ဆက်"
   },
   {
     "title": "77",
     "id": "uDUOLk5bPEw",
-    "duration": "10:29"
+    "duration": "10:29",
+    "description": "ပဋိစ္စဝါရမိတ်ဆက်(၁)"
   },
   {
     "title": "78",
     "id": "BKUDr4SS87M",
-    "duration": "12:10"
+    "duration": "12:10",
+    "description": "ပဋိစ္စဝါရမိတ်ဆက်(၂)"
   },
   {
     "title": "79",
     "id": "XofQWAlY5LI",
-    "duration": "12:03"
+    "duration": "12:03",
+    "description": "နယ(၄)မျိုး,အကျဉ်း(၆)ကျမ်း"
   },
   {
     "title": "80",
     "id": "ALxFjqAqOhU",
-    "duration": "12:21"
+    "duration": "12:21",
+    "description": "ပဋ္ဌာန်း(၂၄)ကျမ်း ရေတွက်ပုံ"
   },
   {
     "title": "81",
     "id": "TeZXx1FibtM",
-    "duration": "13:30"
+    "duration": "13:30",
+    "description": "ပဋ္ဌာန်း(၂၄)ကျမ်းရေတွက်ပုံနှင့် ဟောပုံနမူနာ"
   },
   {
     "title": "82",
     "id": "iQkqK_rYiMo",
-    "duration": "12:45"
+    "duration": "12:45",
+    "description": "ဆဝါရမိတ်ဆက်"
   },
   {
     "title": "83",
     "id": "7At_lblxlcg",
-    "duration": "13:55"
+    "duration": "13:55",
+    "description": "ဆဝါရမိတ်ဆက်(၂)"
   },
   {
     "title": "84",
     "id": "8VeODDjoY0M",
-    "duration": "9:17"
+    "duration": "09:17",
+    "description": "ပဉှာဝါရ မိတ်ဆက်"
   },
   {
     "title": "85",
     "id": "H6Z1sEa39D0",
-    "duration": "8:59"
+    "duration": "08:59",
+    "description": "ပဉှာဝါရ မိတ်ဆက်(၂)"
   },
   {
     "title": "86",
     "id": "-VSlJqwovjs",
-    "duration": "9:27"
+    "duration": "09:27",
+    "description": "ဓမ္မာနုလောမ"
   },
   {
     "title": "87",
     "id": "Xjv0Jol99A4",
-    "duration": "13:01"
+    "duration": "13:01",
+    "description": "ပဋ္ဌာန်း(၂၄)ကျမ်း နမူနာပါဠိများ"
   }
 ]
