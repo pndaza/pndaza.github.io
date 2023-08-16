@@ -16,7 +16,7 @@
         "url": "https://pndaza.github.io/data/vassa_2022.json"
     },
     {
-        "name": "၂၀၂၂ ဝါတွင်း အာစိဏ္ဏကံ",
+        "name": "၂၀၂၃ ဝါတွင်း အာစိဏ္ဏကံ",
         "url": "https://pndaza.github.io/data/vassa_2022_practice.json"
     },
     {
@@ -26,5 +26,9 @@
     {
         "name": "၂၀၂၃ သင်္ကြန်စခန်း",
         "url": "https://pndaza.github.io/data/thingyan_2023.json"
+    },
+    {
+        "name": "ထိုင်တရား အသံ",
+        "url": "https://pndaza.github.io/data/sitting_guide.json"
     }
 ]

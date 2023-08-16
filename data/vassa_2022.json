@@ -1,524 +1,611 @@
 [
   {
     "title": "ဝါတွင်း Day(1)",
-    "id": "nniy_RfkTXQ",
+    "urlId": "nniy_RfkTXQ",
     "duration": "19:54",
-    "description": "တရားမိတ်ဆက် ရည်မှန်းချက်"
+    "description": "တရားမိတ်ဆက် ရည်မှန်းချက်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(2)",
-    "id": "EUhyiv8Gbr0",
+    "urlId": "EUhyiv8Gbr0",
     "duration": "22:02",
-    "description": "သမာဓိတည်ထောင်ပုံ"
+    "description": "သမာဓိတည်ထောင်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(3)",
-    "id": "Uy7ftLn3XRc",
+    "urlId": "Uy7ftLn3XRc",
     "duration": "23:17",
-    "description": "သတိပဋ္ဌာန်စတင်အားထုတ်ခြင်း"
+    "description": "သတိပဋ္ဌာန်စတင်အားထုတ်ခြင်း",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(4)",
-    "id": "HSSR_ccu77w",
+    "urlId": "HSSR_ccu77w",
     "duration": "23:20",
-    "description": "ဝိပဿနာနှင့်ယှဉ်တွဲသောသမာဓိ"
+    "description": "ဝိပဿနာနှင့်ယှဉ်တွဲသောသမာဓိ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(5)",
-    "id": "czyPoUM9WhA",
+    "urlId": "czyPoUM9WhA",
     "duration": "25:43",
-    "description": "သမ္မာဝါယမ,ဝီရိယ"
+    "description": "သမ္မာဝါယမ,ဝီရိယ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (6)",
-    "id": "-Wyz5c9ieKI",
+    "urlId": "-Wyz5c9ieKI",
     "duration": "28:41",
-    "description": "ပညတ်ပရမတ်ခွဲ"
+    "description": "ပညတ်ပရမတ်ခွဲ",
+    "type": "video"
   },
   {
     "title": "ဝါဆိုလပြည့်နေ့(တရားစက်ကြီးဖြစ်စေပြီ)",
-    "id": "mOfvtbWwwLA",
+    "urlId": "mOfvtbWwwLA",
     "duration": "1:00:39",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (7)",
-    "id": "ee2tsi8Fwnw",
+    "urlId": "ee2tsi8Fwnw",
     "duration": "27:20",
-    "description": "ပညတ်ပရမတ်ခွဲ, ရုပ်နာမ်ခွဲ"
+    "description": "ပညတ်ပရမတ်ခွဲ, ရုပ်နာမ်ခွဲ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (8)",
-    "id": "yARbGFmX8cY",
+    "urlId": "yARbGFmX8cY",
     "duration": "25:27",
-    "description": "ပင့်ကူဥပမာ"
+    "description": "ပင့်ကူဥပမာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (9)",
-    "id": "SAfYv0CLLMw",
+    "urlId": "SAfYv0CLLMw",
     "duration": "29:52",
-    "description": "စိတ်ကိုရှုခြင်း"
+    "description": "စိတ်ကိုရှုခြင်း",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (10)",
-    "id": "8wDCtHpWEbg",
+    "urlId": "8wDCtHpWEbg",
     "duration": "32:43",
-    "description": "မိုးကုတ်ဥပနိဿယမိတ်ဆက်"
+    "description": "မိုးကုတ်ဥပနိဿယမိတ်ဆက်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(11)",
-    "id": "8bNq2ZwX9jg",
+    "urlId": "8bNq2ZwX9jg",
     "duration": "27:17",
-    "description": "လုပ်ငန်းစဉ်​ပြပုံ"
+    "description": "လုပ်ငန်းစဉ်​ပြပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (12)",
-    "id": "nla7xyfy1a4",
+    "urlId": "nla7xyfy1a4",
     "duration": "30:40",
-    "description": "အရှုခံ(ရုပ်နာမ်)သိဖို့အရေးကြီးပုံ"
+    "description": "အရှုခံ(ရုပ်နာမ်)သိဖို့အရေးကြီးပုံ",
+    "type": "video"
   },
   {
     "title": "ကြောက်စရာအကောင်းဆုံး ကိုယ့်စိတ်",
-    "id": "JBeBP1HPrVs",
+    "urlId": "JBeBP1HPrVs",
     "duration": "59:58",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (13)",
-    "id": "hYVQdiR0Csk",
+    "urlId": "hYVQdiR0Csk",
     "duration": "30:43",
-    "description": "နာမရူပပရိစ္ဆေဒဉာဏ်"
+    "description": "နာမရူပပရိစ္ဆေဒဉာဏ်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (16)",
-    "id": "KriFgjY20Oo",
+    "urlId": "KriFgjY20Oo",
     "duration": "34:05",
-    "description": "ဒိဋ္ဌိငြိပုံ ဖြုတ်ပုံ"
+    "description": "ဒိဋ္ဌိငြိပုံ ဖြုတ်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(17)",
-    "id": "9_jlp7vkG80",
+    "urlId": "9_jlp7vkG80",
     "duration": "31:03",
-    "description": "ရုပ်၌ ဒိဋ္ဌိ​ကပ်ငြိပုံ"
+    "description": "ရုပ်၌ ဒိဋ္ဌိ​ကပ်ငြိပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(18)",
-    "id": "tl907ZNz82E",
+    "urlId": "tl907ZNz82E",
     "duration": "29:34",
-    "description": "ခန္ဓာငါးပါး သက္ကာယဒိဋ္ဌိ​​ကပ်ငြိပုံ"
+    "description": "ခန္ဓာငါးပါး သက္ကာယဒိဋ္ဌိ​​ကပ်ငြိပုံ",
+    "type": "video"
   },
   {
     "title": "အားကိုးရာအစစ်ရှိကြပြီလား",
-    "id": "6XSVzKdrtwE",
+    "urlId": "6XSVzKdrtwE",
     "duration": "1:01:51",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (19)",
-    "id": "iuQG_R1kuj0",
+    "urlId": "iuQG_R1kuj0",
     "duration": "31:41",
-    "description": "ဒိဋ္ဌိအသိဖြင့်ပြုတ်ပုံ"
+    "description": "ဒိဋ္ဌိအသိဖြင့်ပြုတ်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day (20)",
-    "id": "WJ5UO0X3xec",
+    "urlId": "WJ5UO0X3xec",
     "duration": "28:36",
-    "description": "ဒိဋ္ဌိပြုတ်ပုံသုံးမျိုး"
+    "description": "ဒိဋ္ဌိပြုတ်ပုံသုံးမျိုး",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(21)",
-    "id": "Okjjq9VCT60",
+    "urlId": "Okjjq9VCT60",
     "duration": "27:30",
-    "description": "ဥပါဒါနက္ခန္ဓာ-ဒိဋ္ဌိ၏စွဲစရာ"
+    "description": "ဥပါဒါနက္ခန္ဓာ-ဒိဋ္ဌိ၏စွဲစရာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(22)",
-    "id": "6M2SStns9es",
+    "urlId": "6M2SStns9es",
     "duration": "32:46",
-    "description": "စိတ္တာနုပဿနာ"
+    "description": "စိတ္တာနုပဿနာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(23)",
-    "id": "zjHIRl4lGTw",
+    "urlId": "zjHIRl4lGTw",
     "duration": "29:57",
-    "description": "စိတ္တာနုပဿနာ-၂။ မနောပေါက်ရှုနည်း"
+    "description": "စိတ္တာနုပဿနာ-၂။ မနောပေါက်ရှုနည်း",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(24)",
-    "id": "Sqx9WUPlG9I",
+    "urlId": "Sqx9WUPlG9I",
     "duration": "32:51",
-    "description": "စိတ်၏လက္ခဏာ စသည်"
+    "description": "စိတ်၏လက္ခဏာ စသည်",
+    "type": "video"
   },
   {
     "title": "ခန္ဓာ့ပဋိစ္စသမုပ္ပါဒ်နားလည်မှု",
-    "id": "ZtJmWCC_TGY",
+    "urlId": "ZtJmWCC_TGY",
     "duration": "52:26",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day-25",
-    "id": "x4Q-4s4U4gU",
+    "urlId": "x4Q-4s4U4gU",
     "duration": "28:10",
-    "description": "စိတ်ကိုရှုပုံ"
+    "description": "စိတ်ကိုရှုပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day-26",
-    "id": "ld1Nfs3r8o4",
+    "urlId": "ld1Nfs3r8o4",
     "duration": "35:11",
-    "description": "စိတ်ကိုဖြစ်ပျက်မြင်အောင်ရှုပုံ"
+    "description": "စိတ်ကိုဖြစ်ပျက်မြင်အောင်ရှုပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(27)",
-    "id": "v3zxCBYrVTM",
+    "urlId": "v3zxCBYrVTM",
     "duration": "28:50",
-    "description": "စိတ်ကိုအနိစ္စလို့ရှုပုံ"
+    "description": "စိတ်ကိုအနိစ္စလို့ရှုပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(28)",
-    "id": "D0aUvopMuAs",
+    "urlId": "D0aUvopMuAs",
     "duration": "33:17",
-    "description": "ဝိပဿနာသမ္မာဒိဋ္ဌိသည်ခန္ဓာစွန့်တဏှာစွန့်, တဒင်္ဂစွန့်"
+    "description": "ဝိပဿနာသမ္မာဒိဋ္ဌိသည်ခန္ဓာစွန့်တဏှာစွန့်, တဒင်္ဂစွန့်",
+    "type": "video"
   },
   {
     "title": "သစ္စဉာဏ် ကိစ္စဉာဏ် ကတဉာဏ်",
-    "id": "-ehXQLDMoC8",
+    "urlId": "-ehXQLDMoC8",
     "duration": "59:47",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(29)",
-    "id": "TC4SM7srwa8",
+    "urlId": "TC4SM7srwa8",
     "duration": "28:23",
-    "description": "အနိစ္စနှင့် အနိစ္စလက္ခဏာ"
+    "description": "အနိစ္စနှင့် အနိစ္စလက္ခဏာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(30)",
-    "id": "bp323_jUV5I",
+    "urlId": "bp323_jUV5I",
     "duration": "30:14",
-    "description": "ဖြစ်ပျက်မြင်ပြီးက ဝီရိယတိုးသင့်ပုံ"
+    "description": "ဖြစ်ပျက်မြင်ပြီးက ဝီရိယတိုးသင့်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(31)",
-    "id": "rg6dGGXVw0U",
+    "urlId": "rg6dGGXVw0U",
     "duration": "32:21",
-    "description": "တခုကိုပိုင်နိုင်အောင်ရှုသင့်ပုံ"
+    "description": "တခုကိုပိုင်နိုင်အောင်ရှုသင့်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(32)",
-    "id": "EmE-pIWH0_M",
+    "urlId": "EmE-pIWH0_M",
     "duration": "30:06",
-    "description": "ဉာဏ်တက်လာလေဒိဋ္ဌိပြုတ်လေ"
+    "description": "ဉာဏ်တက်လာလေဒိဋ္ဌိပြုတ်လေ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(33)",
-    "id": "JaledTjmQCk",
+    "urlId": "JaledTjmQCk",
     "duration": "28:30",
-    "description": "ဉာဏ်တက်လာလေဝိစိကိစ္ဆာပြုတ်လေ"
+    "description": "ဉာဏ်တက်လာလေဝိစိကိစ္ဆာပြုတ်လေ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(34)",
-    "id": "GVJIjBuPOHo",
+    "urlId": "GVJIjBuPOHo",
     "duration": "29:13",
-    "description": "ဝိပဿနာရှုကြရန်"
+    "description": "ဝိပဿနာရှုကြရန်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(35)",
-    "id": "ACz_P0iturU",
+    "urlId": "ACz_P0iturU",
     "duration": "32:00",
-    "description": "သင်္ခါရတရား အနိစ္စမြင်အောင်ကြည့်ရန်"
+    "description": "သင်္ခါရတရား အနိစ္စမြင်အောင်ကြည့်ရန်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(36)",
-    "id": "zZoa-S1qn8g",
+    "urlId": "zZoa-S1qn8g",
     "duration": "38:44",
-    "description": "ဖြစ်ပျက်မြင်၊ မုန်း၊ ဆုံး လိုက်ကြရန်"
+    "description": "ဖြစ်ပျက်မြင်၊ မုန်း၊ ဆုံး လိုက်ကြရန်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(37)",
-    "id": "alxOf_KAj-w",
+    "urlId": "alxOf_KAj-w",
     "duration": "28:36",
-    "description": "သစ္စာဆိုက်သည်အထိရှုရန်"
+    "description": "သစ္စာဆိုက်သည်အထိရှုရန်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(38)",
-    "id": "D2BEKe8B1AU",
+    "urlId": "D2BEKe8B1AU",
     "duration": "30:01",
-    "description": "သဗ္ဗေ သင်္ခါရာ အနိစ္စာ ယဒါ ပညာယ ပဿတိ"
+    "description": "သဗ္ဗေ သင်္ခါရာ အနိစ္စာ ယဒါ ပညာယ ပဿတိ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(39)",
-    "id": "xdCBVQVwNzk",
+    "urlId": "xdCBVQVwNzk",
     "duration": "33:35",
-    "description": "သဗ္ဗေ သင်္ခါရာ အနိစ္စာ -2"
+    "description": "သဗ္ဗေ သင်္ခါရာ အနိစ္စာ -2",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day-40",
-    "id": "sa527rurZLc",
+    "urlId": "sa527rurZLc",
     "duration": "35:22",
-    "description": "သဗ္ဗေ သင်္ခါရာ အနိစ္စာ -၃"
+    "description": "သဗ္ဗေ သင်္ခါရာ အနိစ္စာ -၃",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(41)",
-    "id": "LWCqqbthxa8",
+    "urlId": "LWCqqbthxa8",
     "duration": "32:50",
-    "description": "အနိစ္စ ဝတ သင်္ခါရာ"
+    "description": "အနိစ္စ ဝတ သင်္ခါရာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(42)",
-    "id": "NUk_pO_QJvM",
+    "urlId": "NUk_pO_QJvM",
     "duration": "31:20",
-    "description": "ဣန္ဒြေညှိနည်း"
+    "description": "ဣန္ဒြေညှိနည်း",
+    "type": "video"
   },
   {
     "title": "တစ်စက္ကန့်မေတ္တာ တစ်စက္ကန့်ဘာဝနာ",
-    "id": "8Cm_NdpI18A",
+    "urlId": "8Cm_NdpI18A",
     "duration": "1:05:49",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(43)",
-    "id": "mweunR9tku8",
+    "urlId": "mweunR9tku8",
     "duration": "27:20",
-    "description": "ဒုက္ခသစ္စာ၏လက္ခဏာ"
+    "description": "ဒုက္ခသစ္စာ၏လက္ခဏာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(44)",
-    "id": "YfujElZFZ14",
+    "urlId": "YfujElZFZ14",
     "duration": "29:21",
-    "description": "ဒုက္ခသစ္စာ၏ရသ(ကိစ္စ)"
+    "description": "ဒုက္ခသစ္စာ၏ရသ(ကိစ္စ)",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(45)",
-    "id": "C45w5vDKjY0",
+    "urlId": "C45w5vDKjY0",
     "duration": "28:47",
-    "description": "ဒုက္ခသစ္စာဉာဏ်၌ထင်ပုံမြင်ပုံ"
+    "description": "ဒုက္ခသစ္စာဉာဏ်၌ထင်ပုံမြင်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(46)",
-    "id": "TDnxDSQMY0Y",
+    "urlId": "TDnxDSQMY0Y",
     "duration": "29:04",
-    "description": "သစ္စာလေးပါး၏လက္ခဏာ"
+    "description": "သစ္စာလေးပါး၏လက္ခဏာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(47)",
-    "id": "ir__t1GbeLY",
+    "urlId": "ir__t1GbeLY",
     "duration": "29:35",
-    "description": "မဂ္ဂ အဓိပ္ပါယ်"
+    "description": "မဂ္ဂ အဓိပ္ပါယ်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(48)",
-    "id": "b0yb6kwBtsc",
+    "urlId": "b0yb6kwBtsc",
     "duration": "26:21",
-    "description": "နိဗ္ဗာန်၏လက္ခဏာစသည်"
+    "description": "နိဗ္ဗာန်၏လက္ခဏာစသည်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(49)",
-    "id": "f8W849Ku9gQ",
+    "urlId": "f8W849Ku9gQ",
     "duration": "31:24",
-    "description": "နိဗ္ဗာန်၏လက္ခဏာစသည် နှင့် ရောက်ကြောင်းအကျင့်လမ်းစဉ်"
+    "description": "နိဗ္ဗာန်၏လက္ခဏာစသည် နှင့် ရောက်ကြောင်းအကျင့်လမ်းစဉ်",
+    "type": "video"
   },
   {
     "title": "အာသဝေါတရားနှင့်ခန္ဓာပဋိစ္စသမုပ္ပါဒ်",
-    "id": "tqZXINrM1_4",
+    "urlId": "tqZXINrM1_4",
     "duration": "59:16",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "သစ္စာလေးပါး",
-    "id": "_k-qjmyH12w",
+    "urlId": "_k-qjmyH12w",
     "duration": "1:11:42",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(50)",
-    "id": "WbCQLhbPJpU",
+    "urlId": "WbCQLhbPJpU",
     "duration": "27:34",
-    "description": "ကြိုးစားကြရန်နှင့် ​သစ္စာလေးပါးလင်္ကာ"
+    "description": "ကြိုးစားကြရန်နှင့် ​သစ္စာလေးပါးလင်္ကာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(51)",
-    "id": "jB2ai6va-EY",
+    "urlId": "jB2ai6va-EY",
     "duration": "27:44",
-    "description": "မဂ်သမ္မာဒိဋ္ဌိဖြစ်ဖို့ နှစ်ချက်"
+    "description": "မဂ်သမ္မာဒိဋ္ဌိဖြစ်ဖို့ နှစ်ချက်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(52)",
-    "id": "0WZgfipvYFA",
+    "urlId": "0WZgfipvYFA",
     "duration": "30:16",
-    "description": "နှလုံးသွင်းမှန်ကြောင့် ဉာဏ်ဖြစ်ပုံ"
+    "description": "နှလုံးသွင်းမှန်ကြောင့် ဉာဏ်ဖြစ်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(53)",
-    "id": "c-pw6nrPwMU",
+    "urlId": "c-pw6nrPwMU",
     "duration": "27:43",
-    "description": "သစ္စာနှလုံးသွင်းနိုင်မှု"
+    "description": "သစ္စာနှလုံးသွင်းနိုင်မှု",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(54)",
-    "id": "KmC6qoTJy3Q",
+    "urlId": "KmC6qoTJy3Q",
     "duration": "31:58",
-    "description": "ဒိဋ္ဌိပြုတ်ပုံ၊ ဉာဏ်ဖြစ်ပုံ"
+    "description": "ဒိဋ္ဌိပြုတ်ပုံ၊ ဉာဏ်ဖြစ်ပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(55)",
-    "id": "vholnm3SKfE",
+    "urlId": "vholnm3SKfE",
     "duration": "29:10",
-    "description": "သင်္ခါရုပေက္ခဉာဏ်၏ဂုဏ်(၆)ပါး"
+    "description": "သင်္ခါရုပေက္ခဉာဏ်၏ဂုဏ်(၆)ပါး",
+    "type": "video"
   },
   {
     "title": "ယမမင်းစစ်တမ်းတရားတော် (ဒေဝဒူတသုတ်)",
-    "id": "UG-0sax0LiM",
+    "urlId": "UG-0sax0LiM",
     "duration": "1:06:19",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day-56",
-    "id": "HPGxJGZyOGg",
+    "urlId": "HPGxJGZyOGg",
     "duration": "29:05",
-    "description": "မှန်းခြေထားပြီးကြိုးစားကြရန်"
+    "description": "မှန်းခြေထားပြီးကြိုးစားကြရန်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day-(57)",
-    "id": "IgRuK50TJ6E",
+    "urlId": "IgRuK50TJ6E",
     "duration": "27:29",
-    "description": "အမှောင်ငါးစင်းအလင်းငါးချက်"
+    "description": "အမှောင်ငါးစင်းအလင်းငါးချက်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(58)",
-    "id": "sMFYoIsGi3E",
+    "urlId": "sMFYoIsGi3E",
     "duration": "27:24",
-    "description": "အမှောင်ငါးစင်းအလင်းငါးချက်-၂"
+    "description": "အမှောင်ငါးစင်းအလင်းငါးချက်-၂",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(59)",
-    "id": "jhumXnekZIU",
+    "urlId": "jhumXnekZIU",
     "duration": "32:55",
-    "description": "ဝိပဿနာဉာဏ်မှ မဂ်ဉာဏ်ကူးပုံ"
+    "description": "ဝိပဿနာဉာဏ်မှ မဂ်ဉာဏ်ကူးပုံ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(60)",
-    "id": "TBFwSPnht3A",
+    "urlId": "TBFwSPnht3A",
     "duration": "29:51",
-    "description": "ဉာဏ်သုံးဉာဏ်"
+    "description": "ဉာဏ်သုံးဉာဏ်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(61)",
-    "id": "8CcgqqSUC7A",
+    "urlId": "8CcgqqSUC7A",
     "duration": "26:25",
-    "description": "ဓမ္မာဒါသ-တရားမှန်"
+    "description": "ဓမ္မာဒါသ-တရားမှန်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(62)",
-    "id": "nz7JL_W5TEs",
+    "urlId": "nz7JL_W5TEs",
     "duration": "31:34",
-    "description": "အနုဗောဓဉာဏ် ပဋိဝေဓဉာဏ်"
+    "description": "အနုဗောဓဉာဏ် ပဋိဝေဓဉာဏ်",
+    "type": "video"
   },
   {
     "title": "သောတာပန်စိတ်ထား(၇)ချက်",
-    "id": "dkHQnQ00Smc",
+    "urlId": "dkHQnQ00Smc",
     "duration": "1:02:19",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(63)",
-    "id": "UJ3E-WSeFJo",
+    "urlId": "UJ3E-WSeFJo",
     "duration": "27:04",
-    "description": "မဟာပစ္စဝေက္ခဏာ(၇)ချက်"
+    "description": "မဟာပစ္စဝေက္ခဏာ(၇)ချက်",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(64)",
-    "id": "KD5tNACHLvM",
+    "urlId": "KD5tNACHLvM",
     "duration": "29:52",
-    "description": "နီဝရဏရှုနည်း, ဓမ္မာနုပဿနာ"
+    "description": "နီဝရဏရှုနည်း, ဓမ္မာနုပဿနာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(65)",
-    "id": "gQAGwZpLuTw",
+    "urlId": "gQAGwZpLuTw",
     "duration": "26:47",
-    "description": "ဗောဇ္ဈင်-၇ပါး, ဓမ္မာနုပဿနာ"
+    "description": "ဗောဇ္ဈင်-၇ပါး, ဓမ္မာနုပဿနာ",
+    "type": "video"
   },
   {
     "title": "ဝါတွင်း Day(66)",
-    "id": "yE7_dlYPvFY",
+    "urlId": "yE7_dlYPvFY",
     "duration": "31:00",
-    "description": "ကြိုးစားအားထုတ်ကြရန်"
+    "description": "ကြိုးစားအားထုတ်ကြရန်",
+    "type": "video"
   },
   {
     "title": "Day-1(မနက်)",
-    "id": "quDtPaaU62M",
+    "urlId": "quDtPaaU62M",
     "duration": "51:31",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day1(ညနေ)",
-    "id": "pav0L6gs5JE",
+    "urlId": "pav0L6gs5JE",
     "duration": "57:31",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "အကျင့်မြတ်ဖြင့်ပူဇော်ခြင်း(Day2,ညနေ)",
-    "id": "XUISN8acZyc",
+    "urlId": "XUISN8acZyc",
     "duration": "46:46",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day3(မနက်)",
-    "id": "WhmwEI-5rhE",
+    "urlId": "WhmwEI-5rhE",
     "duration": "48:03",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day3(ညနေ)",
-    "id": "E4xUeLFk4lM",
+    "urlId": "E4xUeLFk4lM",
     "duration": "52:19",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day4(မနက်)",
-    "id": "g7dh7VAzepo",
+    "urlId": "g7dh7VAzepo",
     "duration": "50:50",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day4(ညနေ)",
-    "id": "xX35s2ZdhPg",
+    "urlId": "xX35s2ZdhPg",
     "duration": "55:51",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day5(မနက်)",
-    "id": "8axvy6CNByM",
+    "urlId": "8axvy6CNByM",
     "duration": "53:00",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day5(ညနေ)",
-    "id": "ybsnmQd9K9g",
+    "urlId": "ybsnmQd9K9g",
     "duration": "50:00",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day6 (မနက်)",
-    "id": "PubQlVIGUp4",
+    "urlId": "PubQlVIGUp4",
     "duration": "52:42",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day6 (ညနေ)",
-    "id": "Qu5Hlnq04EA",
+    "urlId": "Qu5Hlnq04EA",
     "duration": "53:30",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day7 (မနက်)",
-    "id": "-7S9IEYm_uU",
+    "urlId": "-7S9IEYm_uU",
     "duration": "54:16",
-    "description": ""
+    "description": "",
+    "type": "video"
   },
   {
     "title": "Day-7 (ညနေ)",
-    "id": "C-lf3jcr7nQ",
+    "urlId": "C-lf3jcr7nQ",
     "duration": "53:42",
-    "description": ""
+    "description": "",
+    "type": "video"
   }
 ]

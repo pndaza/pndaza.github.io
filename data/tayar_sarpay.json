@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "urlId": 1,
         "title": "one",
         "author": "nobody",
         "category": "",
@@ -8,10 +8,11 @@
         "book": "",
         "book_type": "",
         "toc": "",
-        "content": ""
+        "content": "",
+        "type": "video"
     },
     {
-        "id": 2,
+        "urlId": 2,
         "title": "two",
         "author": "anonymos",
         "category": "",
@@ -19,6 +20,7 @@
         "book": "",
         "book_type": "",
         "toc": "",
-        "content": ""
+        "content": "",
+        "type": "video"
     }
 ]
