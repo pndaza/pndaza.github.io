@@ -1,34 +1,42 @@
 [
     {
         "name": "online ဝိပဿနာ",
-        "url": "https://pndaza.github.io/data/online_vipassana.json"
+        "url": "https://pndaza.github.io/data/online_vipassana.json",
+        "baseUrl": ""
     },
     {
         "name": "online အဘိဓမ္မာ",
-        "url": "https://pndaza.github.io/data/online_abhidhamma.json"
+        "url": "https://pndaza.github.io/data/online_abhidhamma.json",
+        "baseUrl": ""
     },
     {
         "name": "online ပဋ္ဌာန်း",
-        "url": "https://pndaza.github.io/data/online_patthana.json"
+        "url": "https://pndaza.github.io/data/online_patthana.json",
+        "baseUrl": ""
     },
     {
         "name": "၂၀၂၂ ဝါတွင်း",
-        "url": "https://pndaza.github.io/data/vassa_2022.json"
+        "url": "https://pndaza.github.io/data/vassa_2022.json",
+        "baseUrl": ""
     },
     {
         "name": "၂၀၂၃ ဝါတွင်း အာစိဏ္ဏကံ",
-        "url": "https://pndaza.github.io/data/vassa_2022_practice.json"
+        "url": "https://pndaza.github.io/data/vassa_2022_practice.json",
+        "baseUrl": ""
     },
     {
         "name": "ယောဂီသစ်လက်တွေ့လေ့ကျင့်ရန်",
-        "url": "https://pndaza.github.io/data/pragmatic_method_for_new_yogi.json"
+        "url": "https://pndaza.github.io/data/pragmatic_method_for_new_yogi.json",
+        "baseUrl": ""
     },
     {
         "name": "၂၀၂၃ သင်္ကြန်စခန်း",
-        "url": "https://pndaza.github.io/data/thingyan_2023.json"
+        "url": "https://pndaza.github.io/data/thingyan_2023.json",
+        "baseUrl": ""
     },
     {
         "name": "ထိုင်တရား အသံ",
-        "url": "https://pndaza.github.io/data/sitting_guide.json"
+        "url": "https://pndaza.github.io/data/sitting_guide.json",
+        "baseUrl": "https://filedn.com/lSDwSYSe19tRDg0YsJqniij/App_Sitting/9-2023-Thagyan_Zoom_mp3/"
     }
 ]
