@@ -12,23 +12,47 @@
         "url": "https://pndaza.github.io/data/online_patthana.json"
     },
     {
-        "name": "၂၀၂၂ ဝါတွင်း",
-        "url": "https://pndaza.github.io/data/vassa_2022.json"
+        "name": "ဝိပဿနာအခြေခံသင်တန်း (Zoom)",
+        "url": "https://pndaza.github.io/data/basic_vipassana_lecture_zoom.json"
+    },
+    {
+        "name": "ပဋိစ္စသမုပ္ပါဒ်သင်တန်း (Live)",
+        "url": "https://pndaza.github.io/data/paticcapamuppada_lecture_live.json"
+    },
+    {
+        "name": "ဓမ္မစကြာသင်တန်း (Zoom)",
+        "url": "https://pndaza.github.io/data/dhammacakka_lecture_zoom.json"
+    },
+    {
+        "name": "ဗောဓိပက္ခိယတရားသင်တန်း (Zoom)",
+        "url": "https://pndaza.github.io/data/bhodhipakkhiya_lecture_zoom.json"
+    },
+    {
+        "name": "သစ္စာလေးပါးသင်တန်း (Zoom)",
+        "url": "https://pndaza.github.io/data/four_noble_truths_lecture_zoom.json"
+    },
+    {
+        "name": "ပဋ္ဌာန်း-ပဉှာဝါရသင်တန်း (Zoom)",
+        "url": "https://pndaza.github.io/data/patthana_pannhavara_lecture_zoom.json"
     },
     {
         "name": "၂၀၂၃ ဝါတွင်း အာစိဏ္ဏကံ",
         "url": "https://pndaza.github.io/data/vassa_2022_practice.json"
     },
     {
-        "name": "ယောဂီသစ်လက်တွေ့လေ့ကျင့်ရန်",
-        "url": "https://pndaza.github.io/data/pragmatic_method_for_new_yogi.json"
-    },
-    {
         "name": "၂၀၂၃ သင်္ကြန်စခန်း",
         "url": "https://pndaza.github.io/data/thingyan_2023.json"
     },
     {
-        "name": "ထိုင်တရား အသံ",
+        "name": "၂၀၂၂ ဝါတွင်း",
+        "url": "https://pndaza.github.io/data/vassa_2022.json"
+    },
+    {
+        "name": "ယောဂီသစ်လက်တွေ့လေ့ကျင့်ရန်",
+        "url": "https://pndaza.github.io/data/pragmatic_method_for_new_yogi.json"
+    },
+    {
+        "name": "ထိုင်တရား (အသံ)",
         "url": "https://pndaza.github.io/data/sitting_guide.json"
     }
 ]
