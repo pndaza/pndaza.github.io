@@ -3,222 +3,222 @@
         "name": "online ဝိပဿနာ",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialonline_vipassana.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/online_vipassana.json"
     },
     {
         "name": "online အဘိဓမ္မာ",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialonline_abhidhamma.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/online_abhidhamma.json"
     },
     {
         "name": "online ပဋ္ဌာန်း",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialonline_patthana.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/online_patthana.json"
     },
     {
         "name": "ဝိပဿနာအခြေခံသင်တန်း (Zoom)",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialbasic_vipassana_lecture_zoom.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/basic_vipassana_lecture_zoom.json"
     },
     {
         "name": "ပဋိစ္စသမုပ္ပါဒ်သင်တန်း (Live)",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialpaticcapamuppada_lecture_live.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/paticcapamuppada_lecture_live.json"
     },
     {
         "name": "ဓမ္မစကြာသင်တန်း (Zoom)",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialdhammacakka_lecture_zoom.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/dhammacakka_lecture_zoom.json"
     },
     {
         "name": "ဗောဓိပက္ခိယတရားသင်တန်း (Zoom)",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialbhodhipakkhiya_lecture_zoom.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/bhodhipakkhiya_lecture_zoom.json"
     },
     {
         "name": "သစ္စာလေးပါးသင်တန်း (Zoom)",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialfour_noble_truths_lecture_zoom.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/four_noble_truths_lecture_zoom.json"
     },
     {
         "name": "ပဋ္ဌာန်း-ပဉှာဝါရသင်တန်း (Zoom)",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialpatthana_pannhavara_lecture_zoom.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/patthana_pannhavara_lecture_zoom.json"
     },
     {
         "name": "မိုးကုတ်ဆရာတော် ထေရုပ္ပတ္တိမော်ကွန်း",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialmogok_sayadaw_biography.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/mogok_sayadaw_biography.json"
     },
     {
         "name": "၂၀၂၃ ဝါတွင်း အာစိဏ္ဏကံ",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialvassa_2022_practice.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/vassa_2022_practice.json"
     },
     {
         "name": "၂၀၂၂ ဝါတွင်း အာစိဏ္ဏကံ",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialvassa_2022.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/vassa_2022.json"
     },
     {
         "name": "၂၀၂၁ ဝါတွင်း (Live)",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialvassa_2021.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/vassa_2021.json"
     },
     {
         "name": "ယောဂီသစ်လက်တွေ့လေ့ကျင့်ရန်",
         "group_id": 1,
         "group_name": "သင်တန်း",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorialpragmatic_method_for_new_yogi.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/pragmatic_method_for_new_yogi.json"
     },
     {
         "name": "၂၀၂၃ သင်္ကြန်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2023_thingyan.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2023_thingyan.json"
     },
     {
         "name": "၂၀၂၃-ဖေဖော်ဝါရီစခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2023_feb.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2023_feb.json"
     },
     {
         "name": "၂၀၂၂-ရန်ကုန်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2022_yangon.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2022_yangon.json"
     },
     {
         "name": "၂၀၂၂-ဟဲဟိုးစခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2022_thingyan.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2022_thingyan.json"
     },
     {
         "name": "၂၀၂၂-သီတင်းကျွတ်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2022_thadingyut.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2022_thadingyut.json"
     },
     {
         "name": "၂၀၂၂-သင်္ကြန်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2022_new_year.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2022_new_year.json"
     },
     {
         "name": "၂၀၂၁-၂၀၂၂ (နှစ်သစ်ကူးစခန်း)",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2022_heho.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2022_heho.json"
     },
     {
         "name": "၂၀၂၁-သီတင်းကျွတ်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2021_thadingyut.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2021_thadingyut.json"
     },
     {
         "name": "၂၀၂၁-ဇန်နဝါရီစခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2021_jan.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2021_jan.json"
     },
     {
         "name": "၂၀၂၀-ဒီဇင်ဘာစခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2020_dev.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2020_dev.json"
     },
     {
         "name": "၂၀၂၀-(၅)ရက်စခန်း(Nov)",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2020_nov.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2020_nov.json"
     },
     {
         "name": "၂၀၂၀-သာသနဗိမာန်စခန်း(မော်လမြိုင်)",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2020_mlm.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2020_mlm.json"
     },
     {
         "name": "၂၀၁၉-ဘုရားသုံးဆူ",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreatmeditation_retreat_2019_payathonzu.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2019_payathonzu.json"
     },
     {
         "name": "0-20Min_Work_Giving",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_00.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_00.json"
     },
     {
         "name": "1-2020_day5_Zoom",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_01.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_01.json"
     },
     {
         "name": "2-2020_Dec_Sitting_mp3",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_02.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_02.json"
     },
     {
         "name": "3-2021_Jan_Zoom",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_03.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_03.json"
     },
     {
         "name": "4-2021_Thidinkyut",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_04.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_04.json"
     },
     {
         "name": "5-2021_2022(NewYear)",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_05.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_05.json"
     },
     {
         "name": "6-2022-Thagyan",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_06.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_06.json"
     },
     {
         "name": "7-2022_Thidinkyut(Zoom)",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_07.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_07.json"
     },
     {
         "name": "8-2023-Feb_Zoom",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_08.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_08.json"
     },
     {
         "name": "9-2023-Thagyan_Zoom",
         "group_id": 3,
         "group_name": "အသံ",
-        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guidesitting_guide_09.json"
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_09.json"
     }
 ]
