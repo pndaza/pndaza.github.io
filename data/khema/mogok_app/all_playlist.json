@@ -78,6 +78,12 @@
         "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/pragmatic_method_for_new_yogi.json"
     },
     {
+        "name": "ဟောတရားများ (ဥပုသ်နေ့နှင့်အထိမ်းအမှတ်နေ့)",
+        "group_id": 1,
+        "group_name": "သင်တန်း",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/teachings_on_special_days.json"
+    },
+    {
         "name": "၂၀၂၃ သင်္ကြန်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
