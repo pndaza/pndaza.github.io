@@ -170,61 +170,61 @@
     {
         "name": "အလုပ်ပေးအနှစ်ချူပ်",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_00.json"
     },
     {
         "name": "၂၀၂၀ (၅)ရက်တရားစခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_01.json"
     },
     {
         "name": "၂၀၂၀ ဒီဇင်ဘာတရားစခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_02.json"
     },
     {
         "name": "၂၀၂၁ ဇန်နဝါရီတရားစခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_03.json"
     },
     {
         "name": "၂၀၂၁ သီတင်ကျွတ်တရားစခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_04.json"
     },
     {
         "name": "၂၀၂၁-၂၀၂၂ (နှစ်သစ်ကူးစခန်း)",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_05.json"
     },
     {
         "name": "၂၀၂၂ သင်္ကြန်တရားစခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_06.json"
     },
     {
         "name": "၂၀၂၂ သီတင်ကျွတ်တရားစခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_07.json"
     },
     {
         "name": "၂၀၂၃ ဖေဖော်ဝါရီစခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_08.json"
     },
     {
         "name": "၂၀၂၃ သင်္ကြန်စခန်း",
         "group_id": 3,
-        "group_name": "အသံ",
+        "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_09.json"
     }
 ]
