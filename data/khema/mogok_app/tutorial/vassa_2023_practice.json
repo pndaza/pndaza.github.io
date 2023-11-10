@@ -3,14 +3,14 @@
     "title": "နိဗ္ဗာန်လမ်းပွင့်သောနေ့",
     "urlId": "ytkJtORxxDo",
     "duration": "1:07:48",
-    "description": "",
+    "description": "(ဝါဆိုလပြည့်နေ့,ဓမ္မစကြာအခါတော်နေ့)",
     "type": "video"
   },
   {
     "title": "Day 1",
     "urlId": "KBvDyAFmZEc",
     "duration": "30:36",
-    "description": "ကြိုးစားအားထုတ်ကြရန်(မိတ်ဆက်)",
+    "description": "ကြိုးစားအားထုတ်ရန်ခြုံငုံသုံးသပ်ပြခြင်း",
     "type": "video"
   },
   {
@@ -28,35 +28,35 @@
     "type": "video"
   },
   {
-    "title": "Day 4 (ဝီရိယသုံးမျိုး)",
+    "title": "Day 4",
     "urlId": "fESZE-JeTq0",
     "duration": "30:14",
     "description": "ဝီရိယသုံးမျိုး",
     "type": "video"
   },
   {
-    "title": "Day 5 (ရုပ်ကိုစတွေ့ပုံ)",
+    "title": "Day 5",
     "urlId": "eJphPgc2lA0",
     "duration": "30:17",
     "description": "ရုပ်ကိုစတွေ့ပုံ",
     "type": "video"
   },
   {
-    "title": "Day 6 (အိပ်ငိုက်ဖျောက်နည်း(၇)နည်း)",
+    "title": "Day 6",
     "urlId": "0fIwm1pKT7k",
     "duration": "29:22",
     "description": "အိပ်ငိုက်ဖျောက်နည်း(၇)နည်း",
     "type": "video"
   },
   {
-    "title": "Day 7(အသက်ကြီးသူ ကျန်းမာရေးမကောင်းသူမျာအတွက်)",
+    "title": "Day 7",
     "urlId": "9xZz5xmQbvk",
     "duration": "33:52",
     "description": "အသက်ကြီးသူ ကျန်းမာရေးမကောင်းသူမျာအတွက်",
     "type": "video"
   },
   {
-    "title": "Day 8 (သောတာပန်တည်ကြောင်း)(မဂ်ရကြောင်း)",
+    "title": "Day 8",
     "urlId": "QRmdDet_H-s",
     "duration": "34:32",
     "description": "သောတာပန်တည်ကြောင်း/မဂ်ရကြောင်း",
@@ -77,108 +77,325 @@
     "type": "video"
   },
   {
-    "title": "Day 11 (ရုပ်လက္ခဏာ, နာမ်လက္ခဏာဖြင့်ရှုပုံ)",
+    "title": "Day 11",
     "urlId": "e49TqduCNOM",
     "duration": "36:41",
     "description": "ဝိပဿနာ၏အာရုံ",
     "type": "video"
   },
   {
-    "title": "Day 12 (သဘာဝလက္ခဏာမှဖြစ်ပျက်တင်ရှုပုံ)",
+    "title": "Day 12",
     "urlId": "ynyw0ZLqt9U",
     "duration": "35:38",
     "description": "သဘာဝလက္ခဏာမှ ဖြစ်ပျက်ပြောင်းရှုပုံ",
     "type": "video"
   },
   {
-    "title": "Day 13 (စိတ္တာနုပဿနာနှင့်မိုးကုတ်ဥပနိဿယ)",
+    "title": "Day 13",
     "urlId": "N5omcVDDEnA",
     "duration": "39:04",
     "description": "ရှုနေရင်းဖြင့်ခန္ဓာ့ပဋိစ္စသမုပ္ပါဒ်နားလည်ပြီး ဖြစ်ပျက်မြင်ပုံ",
     "type": "video"
   },
   {
-    "title": "Day 14 (အလုပ်ပေးအနှစ်ချုပ်)",
+    "title": "Day 14",
     "urlId": "9sBt7BMMFrQ",
     "duration": "18:03",
     "description": "လက်တွေ့အလုပ်ပေးအနှစ်ချုပ်",
     "type": "video"
   },
   {
-    "title": "Day 15 (မိုးကုတ်ဥပနိဿယနှင့် စိတ်ရှုနည်း)",
+    "title": "Day 15",
     "urlId": "Bw7QApIjpmw",
     "duration": "28:22",
     "description": "မိုးကုတ်ဥပနိဿယစိတ္တာနုပဿနာရှုပုံ",
     "type": "video"
   },
   {
-    "title": "Day 16 (စိတ်၏လက္ခဏ,ရသ,ပစ္စုပဋ္ဌာန်)",
+    "title": "Day 16",
     "urlId": "27xWY_6LYNY",
     "duration": "35:03",
     "description": "စိတ်၏လက္ခဏ,ရသ,ပစ္စုပဋ္ဌာန်တို့ဖြင့်စိတ်ကိုရှာဖွေပုံ",
     "type": "video"
   },
   {
-    "title": "Day 17 (ယောဂီကျင့်ဝတ်နှင့် စိတ္တာပဿနာရှုနည်း)",
+    "title": "Day 17",
     "urlId": "Idm1_8P-r_4",
     "duration": "37:38",
     "description": "ယောဂီကျင့်ဝတ်နှင့် စိတ္တာပဿနာရှုနည်း",
     "type": "video"
   },
   {
-    "title": "Day 18 (မိမိထက်နားလည်သူအားဆည်းကပ်သင့်ပုံ)",
+    "title": "Day 18",
     "urlId": "X-7dvO1OU_M",
     "duration": "34:46",
     "description": "မိမိထက်နားလည်သူအားဆည်းကပ်သင့်ပုံ",
     "type": "video"
   },
   {
-    "title": "Day 19 (အလုပ်စဉ်အကျဉ်းချုပ်+အဓိဋ္ဌာန်ပုံ)",
+    "title": "Day 19",
     "urlId": "y_BWQqXQB-k",
     "duration": "33:24",
     "description": "အလုပ်စဉ်အကျဉ်းချုပ်+အဓိဋ္ဌာန်ပုံ",
     "type": "video"
   },
   {
-    "title": "Day 20 (ဉာဏ်နုသေးသောယောဂီများအတွက်မှာထားချက်)",
+    "title": "Day 20",
     "urlId": "GlS7R-IsNjk",
     "duration": "36:06",
     "description": "ဉာဏ်နုသေးသောယောဂီများအတွက်မှာထားချက်",
     "type": "video"
   },
   {
-    "title": "Day 21 (သမာဓိထူထောင်ပုံ)",
+    "title": "Day 21",
     "urlId": "IAheH-EOxps",
     "duration": "35:11",
     "description": "သမာဓိထူထောင်ပုံ",
     "type": "video"
   },
   {
-    "title": "Day 22 (သမာဓိရှိပြီးက လက္ခဏာဖြင့်ရှာရန်)",
+    "title": "Day 22",
     "urlId": "pHWg7IsSWDw",
     "duration": "37:19",
     "description": "သမာဓိရှိပြီးက လက္ခဏာဖြင့်ရှာရန်",
     "type": "video"
   },
   {
-    "title": "Day-23 (သမာဓိရကတခုကိုစူးစိုက်ကြည့်ရန်)",
+    "title": "Day-23",
     "urlId": "KstSRRUqPj0",
     "duration": "36:32",
     "description": "သဘောတရားတခုတည်းကို အရင်စူးစိုက်ရှုသင့်ပုံ",
     "type": "video"
   },
   {
-    "title": "Day 24 (ဖြစ်ပျက်မြင်အောင်ရှုနည်း)",
+    "title": "Day 24",
     "urlId": "_rT7C88Ua8M",
     "duration": "34:36",
     "description": "ဖြစ်ပျက်မြင်အောင်ရှုနည်း (ဥဒယဗ္ဗယဉာဏ်ရည်မှန်း)",
     "type": "video"
   },
   {
-    "title": "Day 25 (သတိဝီရိယသမာဓိအလုပ်လုပ်ပုံ)",
+    "title": "Day 25",
     "urlId": "N-n-97eVzME",
     "duration": "33:26",
     "description": "သတိဝီရိယသမာဓိအလုပ်လုပ်ပုံ",
+    "type": "video"
+  },
+  {
+    "title": "Day 26",
+    "urlId": "mJL8CDM0Md8",
+    "duration": "33:00",
+    "description": "သတိကိုနေရာချခြင်း(စာဗူးတောင်းဥပမာ)",
+    "type": "video"
+  },
+  {
+    "title": "Day 27",
+    "urlId": "8DNPmu-Va30",
+    "duration": "34:32",
+    "description": "သတိမှန်ပါကပညာမဂ္ဂင်ပါဝင်လာပုံ",
+    "type": "video"
+  },
+  {
+    "title": "Day 28",
+    "urlId": "MhZHPqc8VZ0",
+    "duration": "34:35",
+    "description": "ဝိတက်,ဝိစာရရှုနည်း",
+    "type": "video"
+  },
+  {
+    "title": "Day 29",
+    "urlId": "AhNcvQlbU1A",
+    "duration": "36:52",
+    "description": "ဖြစ်ပျက်ဆက်တိုက်မြင်အောင်ရှုနည်း",
+    "type": "video"
+  },
+  {
+    "title": "Day 30",
+    "urlId": "miO-5MmvEcI",
+    "duration": "37:34",
+    "description": "ဖြစ်ပျက်ဆက်တိုက်မြင်အောင်ရှုနည်း (၂)",
+    "type": "video"
+  },
+  {
+    "title": "Day 31",
+    "urlId": "HpfR2nJQIUw",
+    "duration": "32:21",
+    "description": "မနောပေါက်ဝိပဿနာရှုနည်း",
+    "type": "video"
+  },
+  {
+    "title": "Day 32",
+    "urlId": "ioGbiv_-g4Y",
+    "duration": "32:36",
+    "description": "သွားရင်းလာရင်းရှုမှတ်နည်း (သမ္ပဇညပိုင်း)",
+    "type": "video"
+  },
+  {
+    "title": "Day 33",
+    "urlId": "g-1tRtHMWAY",
+    "duration": "36:51",
+    "description": "ဆုံးဖြတ်ချက်ချ၍ရှုနည်း(၁)",
+    "type": "video"
+  },
+  {
+    "title": "Day 34",
+    "urlId": "zvmasSVvFXY",
+    "duration": "34:53",
+    "description": "ဆုံးဖြတ်ချက်ချ၍ရှုနည်း(၂)",
+    "type": "video"
+  },
+  {
+    "title": "Day 35",
+    "urlId": "Do97Def5zgY",
+    "duration": "35:42",
+    "description": "အနိစ္စရှု အနိစ္စမှတ် အနိစ္စသိ ကျင့်စဉ်",
+    "type": "video"
+  },
+  {
+    "title": "Day 36",
+    "urlId": "KuYZUfti-T8",
+    "duration": "38:38",
+    "description": "ပဟာနပရိညာ၏နယ်ပယ်(အထက်ဉာဏ်)",
+    "type": "video"
+  },
+  {
+    "title": "Day 37",
+    "urlId": "dL9jZ7z1BJA",
+    "duration": "31:40",
+    "description": "ပရိညာ(၃)ပါး (ပရိညာ= ပိုင်းခြားသိ/ပိုင်ပိုင်နိုင်နိုင်သိခြင်း)",
+    "type": "video"
+  },
+  {
+    "title": "Day 38",
+    "urlId": "bazjpWrpIqo",
+    "duration": "31:47",
+    "description": "ပရိညာ(၃)ပါးနှင့်မိုးကုတ်ဥပနိဿယ",
+    "type": "video"
+  },
+  {
+    "title": "Day 39",
+    "urlId": "wS-bxv8ftok",
+    "duration": "33:44",
+    "description": "ခန္ဓာ့ပဋိစ္စသမုပ္ပါဒ်နှင့်ဉာတပရိညာ",
+    "type": "video"
+  },
+  {
+    "title": "Day 40",
+    "urlId": "3Aw6Y66GNpQ",
+    "duration": "37:39",
+    "description": "ပရိညာ(၃)ပါးဖြင့်ဉာဏ်စဉ်တက်ပုံ",
+    "type": "video"
+  },
+  {
+    "title": "Day 41",
+    "urlId": "9HrvdNh1w_Y",
+    "duration": "33:11",
+    "description": "ဒုက္ခသစ္စာအနက်(၁) ပီဠနဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 42",
+    "urlId": "ni70mO9mKZU",
+    "duration": "36:04",
+    "description": "ဒုက္ခသစ္စာအနက်(၂) သင်္ခတဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 43",
+    "urlId": "P8EufPj1Jc4",
+    "duration": "32:51",
+    "description": "ဒုက္ခသစ္စာအနက်(၃) သန္တာပဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 44",
+    "urlId": "Ay1rWyDiz-A",
+    "duration": "32:49",
+    "description": "ဒုက္ခသစ္စာအနက်(၄) ဝိပရိဏာမဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 45",
+    "urlId": "Mxjl9QoLPVM",
+    "duration": "32:01",
+    "description": "သမုဒယသစ္စာအနက်(၁) အာယူဟနဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 46",
+    "urlId": "4Omh_MAiOSA",
+    "duration": "35:31",
+    "description": "သမုဒယသစ္စာအနက်(၂) နိဒါနဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 47",
+    "urlId": "ChvMiCR5obg",
+    "duration": "39:55",
+    "description": "သမုဒယသစ္စာအနက်(၃) သံယောဂဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 48",
+    "urlId": "bf5G9vTjsFc",
+    "duration": "34:27",
+    "description": "သမုဒယသစ္စာအနက်(၄) ဗလိဗောဓဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 49",
+    "urlId": "TQp2_DvJ3FU",
+    "duration": "57:57",
+    "description": "နိရောဓသစ္စာအနက်(၁) နိဿရဏဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 50",
+    "urlId": "K4NnOmEiZgg",
+    "duration": "39:38",
+    "description": "နိရောဓသစ္စာအနက်(၂) ဝိဝေကဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 51",
+    "urlId": "YjUONqMz3CI",
+    "duration": "36:16",
+    "description": "နိရောဓသစ္စာအနက်(၃) အသင်္ခတဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 52",
+    "urlId": "i93HNIvcjbA",
+    "duration": "35:06",
+    "description": "နိရောဓသစ္စာအနက်(၄) အမတဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 53",
+    "urlId": "XdtSPsoK1tE",
+    "duration": "34:57",
+    "description": "မဂ္ဂသစ္စာအနက်(၁) နိယျာနဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 54",
+    "urlId": "9I0vW63AeNk",
+    "duration": "36:35",
+    "description": "မဂ္ဂသစ္စာအနက်(၂) ဟေတုဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 55",
+    "urlId": "yqst92ucU1o",
+    "duration": "39:07",
+    "description": "မဂ္ဂသစ္စာအနက်(၃) ဒဿနဋ္ဌော",
+    "type": "video"
+  },
+  {
+    "title": "Day 56",
+    "urlId": "TfhVLzUxJEo",
+    "duration": "34:29",
+    "description": "မဂ္ဂသစ္စာအနက်(၄) အာဓိပတေယျဋ္ဌော",
     "type": "video"
   }
 ]
