@@ -90,6 +90,24 @@
         "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/teachings_on_special_days.json"
     },
     {
+        "name": "၂၀၂၃-၂၀၂၄ နှစ်သစ်ကူးစခန်း",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2023_end.json"
+    },
+    {
+        "name": "၂၀၂၃ သရက်ပင်ကန် စခန်းပွဲ",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2023_thayetpinkan.json"
+    },
+    {
+        "name": "၂၀၂၃ ဇမ္ဗူသီရိ(ရန်ကုန်) စခန်းပွဲ",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2023_zabuthiri.json"
+    },
+    {
         "name": "၂၀၂၃ သင်္ကြန်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
