@@ -256,5 +256,11 @@
         "group_id": 3,
         "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_10.json"
+    },
+    {
+        "name": "၂၀၂၃-၂၀၂၄ နှစ်သစ်ကူး",
+        "group_id": 3,
+        "group_name": "အသံ(ထိုင်ချိန်)",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_11.json"
     }
 ]
