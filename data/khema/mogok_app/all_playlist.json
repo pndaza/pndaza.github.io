@@ -90,6 +90,12 @@
         "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/teachings_on_special_days.json"
     },
     {
+        "name": "၂၀၂၄ သင်္ကြန်စခန်း",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2024_thingyan.json"
+    },
+    {
         "name": "၂၀၂၃-၂၀၂၄ နှစ်သစ်ကူးစခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
@@ -262,5 +268,11 @@
         "group_id": 3,
         "group_name": "အသံ(ထိုင်ချိန်)",
         "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_11.json"
+    },
+    {
+        "name": "၂၀၂၄ သင်္ကြန်စခန်း",
+        "group_id": 3,
+        "group_name": "အသံ(ထိုင်ချိန်)",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/sitting_guide/sitting_guide_12.json"
     }
 ]
