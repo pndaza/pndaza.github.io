@@ -90,6 +90,30 @@
         "url": "https://pndaza.github.io/data/khema/mogok_app/tutorial/teachings_on_special_days.json"
     },
     {
+        "name": "၂၀၂၄ ဒီဇင်ဘာ",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2024_december.json"
+    },
+    {
+        "name": "၂၀၂၄ ရန်ကုန် ဇမ္ဗူသီရိ",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2024_yangon_zabhuthiri.json"
+    },
+    {
+        "name": "၂၀၂၄ နိုဝင်ဘာ သရက်ပင်ကန်",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2024_thayetpinkan.json"
+    },
+    {
+        "name": "၂၀၂၄ စက်တင်ဘာ ရေလဲကလေး",
+        "group_id": 2,
+        "group_name": "စခန်းပွဲ",
+        "url": "https://pndaza.github.io/data/khema/mogok_app/meditation_retreat/meditation_retreat_2024_yelekalay.json"
+    },
+    {
         "name": "၂၀၂၄ သင်္ကြန်စခန်း",
         "group_id": 2,
         "group_name": "စခန်းပွဲ",
